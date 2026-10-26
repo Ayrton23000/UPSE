@@ -1,0 +1,3756 @@
+[
+    {
+        "id": "41384e20b7cfc90e",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "97cadd6a03b3a1f9",
+        "type": "tab",
+        "label": "Flujo 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d76f28377849254e",
+        "type": "tab",
+        "label": "Flujo 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "34b5ef16974c8a7d",
+        "type": "tab",
+        "label": "Flujo 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "788fac5247a4607c",
+        "type": "tab",
+        "label": "Flujo 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "834996f9eac00211",
+        "type": "tab",
+        "label": "Mqtt in y out ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "644167451ff4a4db",
+        "type": "tab",
+        "label": "Flujo 7",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7fd9c006f2d6222a",
+        "type": "tab",
+        "label": "Cliente",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3b108794cc39fbe0",
+        "type": "tab",
+        "label": "Servidor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4b4a06aa8a5e18fd",
+        "type": "tab",
+        "label": "Ejercicio MQTT practica",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2175683c8d5a7e21",
+        "type": "tab",
+        "label": "Http",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cfe1cb7daa8ea3ee",
+        "type": "tab",
+        "label": "Servidor con post",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0ba7df099fda2b76",
+        "type": "tab",
+        "label": "Lección 1 Cliente",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a3d90c735141b28d",
+        "type": "tab",
+        "label": "Lección 1 Dash",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "tab_a02_simulator",
+        "type": "tab",
+        "label": "A02 - Simulador Físico (Planta)",
+        "disabled": false,
+        "info": "Simulador dinámico independiente para A02 - Estación de bombeo automatizada. Prohibido compartir variables con el Dashboard."
+    },
+    {
+        "id": "tab_a02_dashboard",
+        "type": "tab",
+        "label": "A02 - Dashboard SCADA/HMI",
+        "disabled": false,
+        "info": "Backend de presentación y persistencia del Dashboard propio HTML/CSS/JS comunicado exclusivamente por MQTT."
+    },
+    {
+        "id": "27fe8e97bd485819",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "09e323884a6fa406",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#fcfcfd",
+            "primary": "#0d74ce",
+            "bgPage": "#f9f9fb",
+            "groupBg": "#ffffff",
+            "groupOutline": "#d9d9e0"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "2a9ba2737fa7f69c",
+        "type": "ui-page",
+        "name": "Page 1",
+        "ui": "27fe8e97bd485819",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "09e323884a6fa406",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "b42c0d0a3eae6344",
+        "type": "ui-group",
+        "name": "Grupo 1",
+        "page": "2a9ba2737fa7f69c",
+        "width": 6,
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "fee4e05c3cf70cdc",
+        "type": "ui-group",
+        "name": "Grupo 2",
+        "page": "2a9ba2737fa7f69c",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a29f12068e3f8fe7",
+        "type": "ui-group",
+        "name": "Grupo 3",
+        "page": "2a9ba2737fa7f69c",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "fe6f508ac2ec2bb7",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "588e31380a098619",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "0f463a0a2701c3bd",
+        "type": "mqtt-broker",
+        "name": "Hivemq",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5ee361d4ac658788",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "25bf15bddc327b09",
+        "type": "mqtt-broker",
+        "name": "Mosquitto_Local",
+        "broker": "localhost",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c2d618e8962aba0e",
+        "type": "mqtt-broker",
+        "name": "HiveMQ_Cloud",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ed7ccc5620e4ac18",
+        "type": "ui-page",
+        "name": "Claud",
+        "ui": "27fe8e97bd485819",
+        "path": "/page2",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "09e323884a6fa406",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "e5e003171a36bc45",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "ed7ccc5620e4ac18",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6087540b0dbd2809",
+        "type": "ui_tab",
+        "name": "Home ",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6c487c4ba559030b",
+        "type": "ui_tab",
+        "name": "Home 2",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0795ce2afeb693e9",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "fe6f508ac2ec2bb7",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bed74909c39d37ef",
+        "type": "ui_group",
+        "name": "sensores http",
+        "tab": "6c487c4ba559030b",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8a7fdf07b10fefa2",
+        "type": "mqtt-broker",
+        "name": "emqtx",
+        "broker": "broker.emqx.io",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b327d66620fa2338",
+        "type": "ui_tab",
+        "name": "Home 3",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "48a3b6e321a465e9",
+        "type": "ui_tab",
+        "name": "Home 3",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "aa8a5742046ca1c5",
+        "type": "ui_group",
+        "name": "Http dashboard",
+        "tab": "48a3b6e321a465e9",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "70da9bb2bc98c678",
+        "type": "ui_tab",
+        "name": "Leccion 1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "eab0e163439b4f88",
+        "type": "ui_group",
+        "name": "Leccion 1",
+        "tab": "70da9bb2bc98c678",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0703454bb62d4367",
+        "type": "ui_group",
+        "name": "nuev",
+        "tab": "b327d66620fa2338",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "mqtt_broker_local",
+        "type": "mqtt-broker",
+        "name": "Broker MQTT Local (Mosquitto)",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthQos": "0",
+        "willQos": "0"
+    },
+    {
+        "id": "ws_listener_a02",
+        "type": "websocket-listener",
+        "path": "/ws/a02",
+        "wholemsg": "false"
+    },
+    {
+        "id": "83f83a691bbc4ddd",
+        "type": "inject",
+        "z": "41384e20b7cfc90e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Mensaje enviado",
+        "payload": "{ \"temp\": 23, \"hum\": 88, \"name\": \"pepito\"}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "4a4d069698abcd8e",
+                "90a435fc506db424",
+                "a407bdec98116e7c",
+                "f0897c22d376a3c3"
+            ]
+        ]
+    },
+    {
+        "id": "4a4d069698abcd8e",
+        "type": "debug",
+        "z": "41384e20b7cfc90e",
+        "name": "msg",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 270,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "90a435fc506db424",
+        "type": "change",
+        "z": "41384e20b7cfc90e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "temp",
+                "pt": "msg",
+                "to": "payload.temp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 240,
+        "wires": [
+            [
+                "78d533b935f094e5"
+            ]
+        ]
+    },
+    {
+        "id": "78d533b935f094e5",
+        "type": "debug",
+        "z": "41384e20b7cfc90e",
+        "name": "temp",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a407bdec98116e7c",
+        "type": "change",
+        "z": "41384e20b7cfc90e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hum",
+                "pt": "msg",
+                "to": "payload.hum",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "c32d5005668e03f7"
+            ]
+        ]
+    },
+    {
+        "id": "c32d5005668e03f7",
+        "type": "debug",
+        "z": "41384e20b7cfc90e",
+        "name": "hum",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f0897c22d376a3c3",
+        "type": "change",
+        "z": "41384e20b7cfc90e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "name",
+                "pt": "msg",
+                "to": "payload.name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 440,
+        "wires": [
+            [
+                "f40a6baf023b6dbe"
+            ]
+        ]
+    },
+    {
+        "id": "f40a6baf023b6dbe",
+        "type": "debug",
+        "z": "41384e20b7cfc90e",
+        "name": "name",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "ae61a3e306f8defc",
+        "type": "inject",
+        "z": "97cadd6a03b3a1f9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \"temp\": 23, \"hum\": 88, \"name\": \"pepito\"}",
+        "payloadType": "json",
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "be789627faeb9649"
+            ]
+        ]
+    },
+    {
+        "id": "be789627faeb9649",
+        "type": "random",
+        "z": "97cadd6a03b3a1f9",
+        "name": "",
+        "low": "0",
+        "high": "60",
+        "inte": "true",
+        "property": "payload.temp",
+        "x": 280,
+        "y": 120,
+        "wires": [
+            [
+                "7758fe3a6d50ec0e",
+                "982931d12952a405"
+            ]
+        ]
+    },
+    {
+        "id": "7758fe3a6d50ec0e",
+        "type": "debug",
+        "z": "97cadd6a03b3a1f9",
+        "name": "Temperatura real",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "982931d12952a405",
+        "type": "switch",
+        "z": "97cadd6a03b3a1f9",
+        "name": "",
+        "property": "payload.temp",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "30",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "da549a6c63463fec"
+            ],
+            [
+                "d39e7844dd885a1b"
+            ]
+        ]
+    },
+    {
+        "id": "da549a6c63463fec",
+        "type": "change",
+        "z": "97cadd6a03b3a1f9",
+        "name": "Temp May",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Alerta: Temperatura Alta",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "Ciudad",
+                "pt": "msg",
+                "to": "Machala",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 200,
+        "wires": [
+            [
+                "59962dc383116615"
+            ]
+        ]
+    },
+    {
+        "id": "59962dc383116615",
+        "type": "debug",
+        "z": "97cadd6a03b3a1f9",
+        "name": "Temperatura alta",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d39e7844dd885a1b",
+        "type": "change",
+        "z": "97cadd6a03b3a1f9",
+        "name": "Temp Men",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Temperatura estable",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "Ciudad",
+                "pt": "msg",
+                "to": "Machala",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 260,
+        "wires": [
+            [
+                "e2b6abb63a93aeb7"
+            ]
+        ]
+    },
+    {
+        "id": "e2b6abb63a93aeb7",
+        "type": "debug",
+        "z": "97cadd6a03b3a1f9",
+        "name": "Temperatura estable",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "72815e2f8167796b",
+        "type": "inject",
+        "z": "d76f28377849254e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "num",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "3a34c0e3dd7bb8fb",
+                "c50ffa42a2e283b4"
+            ]
+        ]
+    },
+    {
+        "id": "3a34c0e3dd7bb8fb",
+        "type": "random",
+        "z": "d76f28377849254e",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 320,
+        "y": 140,
+        "wires": [
+            [
+                "9e9997946a5f47fe",
+                "a55d42a1a587a52b"
+            ]
+        ]
+    },
+    {
+        "id": "9e9997946a5f47fe",
+        "type": "ui-gauge",
+        "z": "d76f28377849254e",
+        "name": "Dash 1",
+        "group": "b42c0d0a3eae6344",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Temperatura",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "30",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "50",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 520,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a55d42a1a587a52b",
+        "type": "ui-chart",
+        "z": "d76f28377849254e",
+        "group": "b42c0d0a3eae6344",
+        "name": "",
+        "label": "chart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 510,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c50ffa42a2e283b4",
+        "type": "random",
+        "z": "d76f28377849254e",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 320,
+        "y": 280,
+        "wires": [
+            [
+                "14701ca4f59dfcd8"
+            ]
+        ]
+    },
+    {
+        "id": "14701ca4f59dfcd8",
+        "type": "ui-gauge",
+        "z": "d76f28377849254e",
+        "name": "Dash 2",
+        "group": "b42c0d0a3eae6344",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Velocidad",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "Km/H",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "30",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "60",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 520,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1225fa5ea4b6255e",
+        "type": "ui_led",
+        "z": "34b5ef16974c8a7d",
+        "order": 0,
+        "group": "0703454bb62d4367",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 610,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "cf356f07b0b5b421",
+        "type": "change",
+        "z": "34b5ef16974c8a7d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 160,
+        "wires": [
+            [
+                "1225fa5ea4b6255e",
+                "f45b5e4692be38a3"
+            ]
+        ]
+    },
+    {
+        "id": "5412c650df0eea35",
+        "type": "change",
+        "z": "34b5ef16974c8a7d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "1225fa5ea4b6255e",
+                "f45b5e4692be38a3"
+            ]
+        ]
+    },
+    {
+        "id": "6771119cc2bf6dc1",
+        "type": "inject",
+        "z": "34b5ef16974c8a7d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \"temp\": 23}",
+        "payloadType": "json",
+        "x": 160,
+        "y": 60,
+        "wires": [
+            [
+                "367773b23adc63c9"
+            ]
+        ]
+    },
+    {
+        "id": "367773b23adc63c9",
+        "type": "random",
+        "z": "34b5ef16974c8a7d",
+        "name": "",
+        "low": "0",
+        "high": "100",
+        "inte": "true",
+        "property": "payload.temp",
+        "x": 320,
+        "y": 60,
+        "wires": [
+            [
+                "40fc104c47ad1c73",
+                "66ba65c6bcd5b090"
+            ]
+        ]
+    },
+    {
+        "id": "40fc104c47ad1c73",
+        "type": "switch",
+        "z": "34b5ef16974c8a7d",
+        "name": "",
+        "property": "payload.temp",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "50",
+                "vt": "num"
+            },
+            {
+                "t": "lte",
+                "v": "15",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "cf356f07b0b5b421"
+            ],
+            [
+                "5412c650df0eea35"
+            ]
+        ]
+    },
+    {
+        "id": "66ba65c6bcd5b090",
+        "type": "debug",
+        "z": "34b5ef16974c8a7d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f45b5e4692be38a3",
+        "type": "debug",
+        "z": "34b5ef16974c8a7d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "86d02849e019490c",
+        "type": "inject",
+        "z": "788fac5247a4607c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "x",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "669042d9757c6251"
+            ]
+        ]
+    },
+    {
+        "id": "806a75288cba83ca",
+        "type": "inject",
+        "z": "788fac5247a4607c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "y",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "24c8550c58c4e730"
+            ]
+        ]
+    },
+    {
+        "id": "3eb82f78a2989ee1",
+        "type": "inject",
+        "z": "788fac5247a4607c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "z",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "22f43df08c887e82"
+            ]
+        ]
+    },
+    {
+        "id": "669042d9757c6251",
+        "type": "random",
+        "z": "788fac5247a4607c",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 80,
+        "wires": [
+            [
+                "2a4c8ab098fdba24"
+            ]
+        ]
+    },
+    {
+        "id": "24c8550c58c4e730",
+        "type": "random",
+        "z": "788fac5247a4607c",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "2a4c8ab098fdba24"
+            ]
+        ]
+    },
+    {
+        "id": "22f43df08c887e82",
+        "type": "random",
+        "z": "788fac5247a4607c",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 200,
+        "wires": [
+            [
+                "2a4c8ab098fdba24"
+            ]
+        ]
+    },
+    {
+        "id": "2a4c8ab098fdba24",
+        "type": "ui_chart",
+        "z": "788fac5247a4607c",
+        "name": "",
+        "group": "0703454bb62d4367",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 570,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "80fb2f0551688105",
+        "type": "mqtt in",
+        "z": "834996f9eac00211",
+        "name": "",
+        "topic": "FIC/6A/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5ee361d4ac658788",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 300,
+        "y": 580,
+        "wires": [
+            [
+                "bac9723cddea776f",
+                "9e494fa3dbf1065c",
+                "15e798d4791c5df2"
+            ]
+        ]
+    },
+    {
+        "id": "bac9723cddea776f",
+        "type": "debug",
+        "z": "834996f9eac00211",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "145746163bed8550",
+        "type": "mqtt out",
+        "z": "834996f9eac00211",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "5ee361d4ac658788",
+        "x": 810,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "10a9986a828ada77",
+        "type": "inject",
+        "z": "834996f9eac00211",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FIC/6A/Juan",
+        "payload": "temp",
+        "payloadType": "msg",
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "0d78a6b1f88ef09e"
+            ]
+        ]
+    },
+    {
+        "id": "2ae408e0e2886e72",
+        "type": "change",
+        "z": "834996f9eac00211",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t    \"temp\": temp,\t    \"hum\": hum\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 240,
+        "wires": [
+            [
+                "b1052bf722cd1e69",
+                "145746163bed8550"
+            ]
+        ]
+    },
+    {
+        "id": "0d78a6b1f88ef09e",
+        "type": "random",
+        "z": "834996f9eac00211",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "temp",
+        "x": 260,
+        "y": 240,
+        "wires": [
+            [
+                "ad7132e133615906"
+            ]
+        ]
+    },
+    {
+        "id": "ad7132e133615906",
+        "type": "random",
+        "z": "834996f9eac00211",
+        "name": "",
+        "low": 1,
+        "high": 10,
+        "inte": "true",
+        "property": "hum",
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "2ae408e0e2886e72"
+            ]
+        ]
+    },
+    {
+        "id": "b1052bf722cd1e69",
+        "type": "debug",
+        "z": "834996f9eac00211",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "15e798d4791c5df2",
+        "type": "ui-gauge",
+        "z": "834996f9eac00211",
+        "name": "Hum",
+        "group": "a29f12068e3f8fe7",
+        "order": 1,
+        "value": "payload.hum",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "300",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "400",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 690,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e494fa3dbf1065c",
+        "type": "ui-gauge",
+        "z": "834996f9eac00211",
+        "name": "Temp",
+        "group": "a29f12068e3f8fe7",
+        "order": 2,
+        "value": "payload.temp",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "300",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "400",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 570,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fa6611ace2cfdb95",
+        "type": "mqtt in",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "topic": "local/iot/temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "25bf15bddc327b09",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 120,
+        "wires": [
+            [
+                "eec9d4f3f1f9abab",
+                "caa8111f6d947fb8"
+            ]
+        ]
+    },
+    {
+        "id": "99801b5441769bf1",
+        "type": "mqtt in",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "topic": "local/iot/hum",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "25bf15bddc327b09",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 260,
+        "wires": [
+            [
+                "6e7cf666c0a0484b",
+                "416efeea4e2529af"
+            ]
+        ]
+    },
+    {
+        "id": "447ac5fa9a424664",
+        "type": "mqtt in",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "topic": "local/iot/led",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "25bf15bddc327b09",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 360,
+        "wires": [
+            [
+                "8505ef0ef3b029be",
+                "da6c561893822965"
+            ]
+        ]
+    },
+    {
+        "id": "eec9d4f3f1f9abab",
+        "type": "mqtt out",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "topic": "nube/iot_774/temp",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8a7fdf07b10fefa2",
+        "x": 430,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6e7cf666c0a0484b",
+        "type": "mqtt out",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "topic": "nube/iot_774/hum",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8a7fdf07b10fefa2",
+        "x": 470,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8505ef0ef3b029be",
+        "type": "mqtt out",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "topic": "nube/iot_774/led",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8a7fdf07b10fefa2",
+        "x": 450,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7f4c7712b8e30a12",
+        "type": "mqtt in",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "topic": "nube/iot_774/boton",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8a7fdf07b10fefa2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 480,
+        "wires": [
+            [
+                "65e53487c8ebf2dd",
+                "b71942ee97e75341",
+                "ce6eab53aa791a59"
+            ]
+        ]
+    },
+    {
+        "id": "65e53487c8ebf2dd",
+        "type": "mqtt out",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "topic": "local/iot/boton",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "25bf15bddc327b09",
+        "x": 440,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "caa8111f6d947fb8",
+        "type": "ui-gauge",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "group": "e5e003171a36bc45",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 370,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "416efeea4e2529af",
+        "type": "ui-gauge",
+        "z": "644167451ff4a4db",
+        "name": "",
+        "group": "e5e003171a36bc45",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 430,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da6c561893822965",
+        "type": "ui-text",
+        "z": "644167451ff4a4db",
+        "group": "e5e003171a36bc45",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "led",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 430,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b71942ee97e75341",
+        "type": "ui-text",
+        "z": "644167451ff4a4db",
+        "group": "e5e003171a36bc45",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "boton",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 410,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "ce6eab53aa791a59",
+        "type": "debug",
+        "z": "644167451ff4a4db",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "10ffe0f276a8de6b",
+        "type": "inject",
+        "z": "7fd9c006f2d6222a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "193474525fbea07e"
+            ]
+        ]
+    },
+    {
+        "id": "3f3d9b85fe2de426",
+        "type": "debug",
+        "z": "7fd9c006f2d6222a",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "193474525fbea07e",
+        "type": "http request",
+        "z": "7fd9c006f2d6222a",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:1880/sensores/23.8/89.7",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "3f3d9b85fe2de426"
+            ]
+        ]
+    },
+    {
+        "id": "07071126a70b879f",
+        "type": "http in",
+        "z": "3b108794cc39fbe0",
+        "name": "",
+        "url": "/sensores/:temp/:hum",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 140,
+        "wires": [
+            [
+                "8fe14045f7e86752",
+                "59965de61a635afe",
+                "e0afb220a703c51e"
+            ]
+        ]
+    },
+    {
+        "id": "8fe14045f7e86752",
+        "type": "template",
+        "z": "3b108794cc39fbe0",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dashboard Sensores</title>\n<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n<script src=\"https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js\"></script>\n</head>\n<body class=\"bg-dark text-white\">\n<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary\">\n<div class=\"container-fluid\">\n<a class=\"navbar-brand\" href=\"#\">Dashboard REST</a>\n</div>\n</nav>\n<div class=\"container mt-5\">\n<div class=\"row justify-content-center\">\n<div class=\"col-md-6 mb-4\">\n<div class=\"card bg-secondary text-white shadow\">\n<div class=\"card-header text-center fs-4\">Temperatura</div>\n<div class=\"card-body\">\n<div id=\"gaugeTemp\" style=\"width: 100%; height: 350px;\"></div>\n</div>\n</div>\n</div>\n<div class=\"col-md-6 mb-4\">\n<div class=\"card bg-secondary text-white shadow\">\n<div class=\"card-header text-center fs-4\">Humedad</div>\n<div class=\"card-body\">\n<div id=\"gaugeHum\" style=\"width: 100%; height: 350px;\"></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<script>\nvar tempChart = echarts.init(document.getElementById('gaugeTemp'), 'dark');\nvar humChart = echarts.init(document.getElementById('gaugeHum'), 'dark');\nvar tempOption = {\nbackgroundColor: 'transparent',\nseries: [{\ntype: 'gauge',\nprogress: { show: true, width: 18 },\naxisLine: { lineStyle: { width: 18 } },\naxisTick: { show: false },\nsplitLine: { length: 15, lineStyle: { width: 2, color: '#999' } },\naxisLabel: { distance: 25, color: '#999', fontSize: 14 },\nanchor: { show: true, showAbove: true, size: 25, itemStyle: { borderWidth: 10 } },\ntitle: { show: false },\ndetail: { valueAnimation: true, fontSize: 30, offsetCenter: [0, '70%'], formatter: '{value} °C' },\ndata: [{ value: {{req.params.temp}} }]\n}]\n};\nvar humOption = {\nbackgroundColor: 'transparent',\nseries: [{\ntype: 'gauge',\nprogress: { show: true, width: 18, itemStyle: { color: '#5470c6' } },\naxisLine: { lineStyle: { width: 18 } },\naxisTick: { show: false },\nsplitLine: { length: 15, lineStyle: { width: 2, color: '#999' } },\naxisLabel: { distance: 25, color: '#999', fontSize: 14 },\nanchor: { show: true, showAbove: true, size: 25, itemStyle: { borderWidth: 10 } },\ntitle: { show: false },\ndetail: { valueAnimation: true, fontSize: 30, offsetCenter: [0, '70%'], formatter: '{value} %' },\ndata: [{ value: {{req.params.hum}} }]\n}]\n};\ntempChart.setOption(tempOption);\nhumChart.setOption(humOption);\nwindow.addEventListener('resize', function() {\ntempChart.resize();\nhumChart.resize();\n});\n</script>\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js\"></script>\n</body>\n</html>",
+        "output": "str",
+        "x": 460,
+        "y": 140,
+        "wires": [
+            [
+                "7f252f77fbd3693d"
+            ]
+        ]
+    },
+    {
+        "id": "7f252f77fbd3693d",
+        "type": "http response",
+        "z": "3b108794cc39fbe0",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 670,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "59965de61a635afe",
+        "type": "debug",
+        "z": "3b108794cc39fbe0",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "req.params",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "e0afb220a703c51e",
+        "type": "function",
+        "z": "3b108794cc39fbe0",
+        "name": "function 1",
+        "func": "var msgTemp = { payload: Number(msg.req.params.temp) };\nvar msgHum = { payload: Number(msg.req.params.hum) };\nreturn [msgTemp, msgHum];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "b7dc90f9bafd6ce4"
+            ],
+            [
+                "b1e11f24e287e6a9"
+            ]
+        ]
+    },
+    {
+        "id": "b7dc90f9bafd6ce4",
+        "type": "ui_gauge",
+        "z": "3b108794cc39fbe0",
+        "name": "",
+        "group": "bed74909c39d37ef",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 610,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b1e11f24e287e6a9",
+        "type": "ui_gauge",
+        "z": "3b108794cc39fbe0",
+        "name": "",
+        "group": "bed74909c39d37ef",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 610,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8c6a293f5356bf78",
+        "type": "ui_template",
+        "z": "3b108794cc39fbe0",
+        "group": "bed74909c39d37ef",
+        "name": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\nmd-card {\n    background-color: #212529 !important;\n    border: 1px solid #495057 !important;\n    border-radius: 12px !important;\n    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6) !important;\n}\n.nr-dashboard-gauge text {\n    fill: #f8f9fa !important;\n    font-weight: bold !important;\n    font-family: system-ui, -apple-system, sans-serif !important;\n}\n.nr-dashboard-gauge .title {\n    font-size: 22px !important;\n    color: #f8f9fa !important;\n    text-transform: uppercase !important;\n}\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 340,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68f5ff94847b3d37",
+        "type": "inject",
+        "z": "4b4a06aa8a5e18fd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "sala/clima",
+        "payload": "{\"temperatura\": 22.4, \"humedad\": 60, \"dispositivo\": \"DHT22_01\"}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "25df0149695a0e1a"
+            ]
+        ]
+    },
+    {
+        "id": "25df0149695a0e1a",
+        "type": "mqtt out",
+        "z": "4b4a06aa8a5e18fd",
+        "name": "",
+        "topic": "",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "25bf15bddc327b09",
+        "x": 370,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ecf19677080e685c",
+        "type": "mqtt in",
+        "z": "4b4a06aa8a5e18fd",
+        "name": "",
+        "topic": "sala/clima",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "25bf15bddc327b09",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 200,
+        "wires": [
+            [
+                "eeb068f903119223"
+            ]
+        ]
+    },
+    {
+        "id": "eeb068f903119223",
+        "type": "debug",
+        "z": "4b4a06aa8a5e18fd",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1fef0ba1fd95045e",
+        "type": "inject",
+        "z": "2175683c8d5a7e21",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"temp\":12,\"hum\":24.2}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "bf40f5ec9073fa8e"
+            ]
+        ]
+    },
+    {
+        "id": "06b2b87c314ff62f",
+        "type": "http request",
+        "z": "2175683c8d5a7e21",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:1880/sensorpost",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 610,
+        "y": 100,
+        "wires": [
+            [
+                "89efe84aaa3b08fb"
+            ]
+        ]
+    },
+    {
+        "id": "89efe84aaa3b08fb",
+        "type": "debug",
+        "z": "2175683c8d5a7e21",
+        "name": "Cliente POST",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "bf40f5ec9073fa8e",
+        "type": "random",
+        "z": "2175683c8d5a7e21",
+        "name": "",
+        "low": 1,
+        "high": "100.00",
+        "inte": "false",
+        "property": "payload.temp",
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "85c2de6da10719b9"
+            ]
+        ]
+    },
+    {
+        "id": "85c2de6da10719b9",
+        "type": "random",
+        "z": "2175683c8d5a7e21",
+        "name": "",
+        "low": 1,
+        "high": "100.00",
+        "inte": "false",
+        "property": "payload.hum",
+        "x": 460,
+        "y": 100,
+        "wires": [
+            [
+                "06b2b87c314ff62f"
+            ]
+        ]
+    },
+    {
+        "id": "90bce0330769624a",
+        "type": "http in",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "url": "/sensorpost",
+        "method": "post",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "1bfe0577ed8148df",
+                "5ab72d0d24df733d",
+                "a552140e5057ff1a",
+                "e5008256282dd59e"
+            ]
+        ]
+    },
+    {
+        "id": "1bfe0577ed8148df",
+        "type": "http response",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "Ok",
+        "statusCode": "",
+        "headers": {},
+        "x": 410,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5ab72d0d24df733d",
+        "type": "debug",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "de152274bb4aa735",
+        "type": "ui_gauge",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "group": "aa8a5742046ca1c5",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 650,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "a552140e5057ff1a",
+        "type": "change",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "de152274bb4aa735"
+            ]
+        ]
+    },
+    {
+        "id": "17b7777bb0083437",
+        "type": "ui_gauge",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "group": "aa8a5742046ca1c5",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 650,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e5008256282dd59e",
+        "type": "change",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.hum",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "17b7777bb0083437"
+            ]
+        ]
+    },
+    {
+        "id": "f987a3954b646de6",
+        "type": "inject",
+        "z": "0ba7df099fda2b76",
+        "name": "Humedad",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "invernadero1/sensores/humedad",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 120,
+        "wires": [
+            [
+                "14886f02f71ef57b"
+            ]
+        ]
+    },
+    {
+        "id": "14886f02f71ef57b",
+        "type": "random",
+        "z": "0ba7df099fda2b76",
+        "name": "Hum random",
+        "low": "30",
+        "high": "90",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 120,
+        "wires": [
+            [
+                "a649da786d6edc75",
+                "5d093d0d485de1aa"
+            ]
+        ]
+    },
+    {
+        "id": "eb4bbdc4bbed8a64",
+        "type": "inject",
+        "z": "0ba7df099fda2b76",
+        "name": "Temperatura",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "120",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "invernadero1/sensores/temperatura",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 220,
+        "wires": [
+            [
+                "8e52ee6a07a0e33e"
+            ]
+        ]
+    },
+    {
+        "id": "8e52ee6a07a0e33e",
+        "type": "random",
+        "z": "0ba7df099fda2b76",
+        "name": "Temp random",
+        "low": "15",
+        "high": "40",
+        "inte": "true",
+        "property": "payload",
+        "x": 320,
+        "y": 220,
+        "wires": [
+            [
+                "a649da786d6edc75",
+                "5d093d0d485de1aa"
+            ]
+        ]
+    },
+    {
+        "id": "0a9d34026a743a9c",
+        "type": "inject",
+        "z": "0ba7df099fda2b76",
+        "name": "Enviar Estado",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "invernadero1/estado",
+        "payload": "{\"sistema\":{\"nombre\":\"Riego Inteligente\",\"ubicacion\":\"Invernadero 1\",\"estado\":{\"riego\":\"apagado\",\"alarmaTemperatura\":false,\"alarmaHumedad\":false}}}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 320,
+        "wires": [
+            [
+                "a649da786d6edc75",
+                "5d093d0d485de1aa"
+            ]
+        ]
+    },
+    {
+        "id": "a649da786d6edc75",
+        "type": "mqtt out",
+        "z": "0ba7df099fda2b76",
+        "name": "",
+        "topic": "",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "25bf15bddc327b09",
+        "x": 570,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5d093d0d485de1aa",
+        "type": "debug",
+        "z": "0ba7df099fda2b76",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a2f92efcb6d7dcd8",
+        "type": "comment",
+        "z": "0ba7df099fda2b76",
+        "name": "Random",
+        "info": "Injecta un payload con un tópico \nSe le asigna un valor aleatorio \nEl valor es enviado hacia el broker\nAplica en Humedad y Temperatura",
+        "x": 320,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "06185a77be596638",
+        "type": "comment",
+        "z": "0ba7df099fda2b76",
+        "name": "Estado",
+        "info": "El estado se mantiene estático\nEs enviado hacia el broker",
+        "x": 190,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "8d4faaf07ab735fc",
+        "type": "mqtt in",
+        "z": "a3d90c735141b28d",
+        "name": "",
+        "topic": "invernadero1/sensores/humedad",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "25bf15bddc327b09",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "57c8f77b8d4fc153",
+                "47b0809bcec36d47"
+            ]
+        ]
+    },
+    {
+        "id": "57c8f77b8d4fc153",
+        "type": "ui_gauge",
+        "z": "a3d90c735141b28d",
+        "name": "",
+        "group": "eab0e163439b4f88",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "%",
+        "format": "{{value}}",
+        "min": "20",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "051fa851ffe27354",
+        "type": "mqtt in",
+        "z": "a3d90c735141b28d",
+        "name": "",
+        "topic": "invernadero1/sensores/temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "25bf15bddc327b09",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "874e3e0e2e6730ca",
+                "628ec7105afc000f"
+            ]
+        ]
+    },
+    {
+        "id": "874e3e0e2e6730ca",
+        "type": "ui_gauge",
+        "z": "a3d90c735141b28d",
+        "name": "",
+        "group": "eab0e163439b4f88",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "ºC",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "16499dec2b01fd4c",
+        "type": "mqtt in",
+        "z": "a3d90c735141b28d",
+        "name": "",
+        "topic": "invernadero1/estado",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "25bf15bddc327b09",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "faeced54054636c1",
+                "5f5255dc96c5db86",
+                "f8b29a8869aed56a",
+                "eecebe6dd1c0486e",
+                "52157ecbe2b47593",
+                "cb0f6f460ad2d0d2"
+            ]
+        ]
+    },
+    {
+        "id": "faeced54054636c1",
+        "type": "ui_text",
+        "z": "a3d90c735141b28d",
+        "group": "eab0e163439b4f88",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nombre",
+        "format": "{{msg.payload.sistema.nombre}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 420,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "52157ecbe2b47593",
+        "type": "ui_text",
+        "z": "a3d90c735141b28d",
+        "group": "eab0e163439b4f88",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Ubicacion",
+        "format": "{{msg.payload.sistema.ubicacion}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 420,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "eecebe6dd1c0486e",
+        "type": "ui_text",
+        "z": "a3d90c735141b28d",
+        "group": "eab0e163439b4f88",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Riego",
+        "format": "{{msg.payload.sistema.estado.riego}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 430,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f8b29a8869aed56a",
+        "type": "ui_text",
+        "z": "a3d90c735141b28d",
+        "group": "eab0e163439b4f88",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperatura",
+        "format": "{{msg.payload.sistema.estado.alarmaTemperatura}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 430,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5f5255dc96c5db86",
+        "type": "ui_text",
+        "z": "a3d90c735141b28d",
+        "group": "eab0e163439b4f88",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humedad",
+        "format": "{{msg.payload.sistema.estado.alarmaHumedad}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 420,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "cb0f6f460ad2d0d2",
+        "type": "debug",
+        "z": "a3d90c735141b28d",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "628ec7105afc000f",
+        "type": "debug",
+        "z": "a3d90c735141b28d",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "47b0809bcec36d47",
+        "type": "debug",
+        "z": "a3d90c735141b28d",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "478b6d5cb41ea815",
+        "type": "comment",
+        "z": "a3d90c735141b28d",
+        "name": "Sensor humedad",
+        "info": "Recepta el valor aleatorio enviado por \nel tópico de humedad\nSe lo muestra en un dashboard",
+        "x": 280,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "752a23a79ffd0dd5",
+        "type": "comment",
+        "z": "a3d90c735141b28d",
+        "name": "Sensor temperatura",
+        "info": "Recepta el valor aleatorio enviado por \nel tópico de temperatura\nSe lo muestra en un dashboard",
+        "x": 290,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "a3bceadc5343fb0e",
+        "type": "comment",
+        "z": "a3d90c735141b28d",
+        "name": "Alerta Estado",
+        "info": "Recepta el JSON enviado por estado\nSe muestra cada valor por separado \nen un cuadro de texto\nAl ser estático nunca va a cambiar su \ncontenido",
+        "x": 270,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "sim_init_inject",
+        "type": "inject",
+        "z": "tab_a02_simulator",
+        "name": "Inicializar Planta (On Start)",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.2",
+        "topic": "init",
+        "payload": "init",
+        "payloadType": "str",
+        "x": 180,
+        "y": 80,
+        "wires": [
+            [
+                "sim_init_fn",
+                "sim_load_file"
+            ]
+        ]
+    },
+    {
+        "id": "sim_load_file",
+        "type": "file in",
+        "z": "tab_a02_simulator",
+        "name": "Leer Estado Persistido",
+        "filename": "a02_sim_persistence.json",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 420,
+        "y": 40,
+        "wires": [
+            [
+                "sim_restore_fn"
+            ]
+        ]
+    },
+    {
+        "id": "sim_restore_fn",
+        "type": "function",
+        "z": "tab_a02_simulator",
+        "name": "Restaurar Estado Local",
+        "func": "try {\n    const saved = JSON.parse(msg.payload);\n    let state = flow.get('plantState');\n    if (state && saved && typeof saved.volumeL === 'number') {\n        state.volumeL = saved.volumeL;\n        state.levelPct = saved.levelPct;\n        state.targetLevelPct = saved.targetLevelPct || 65;\n        state.primaryPump = saved.primaryPump || 'P1';\n        state.mode = saved.mode || 'AUTO';\n        state.kpis = saved.kpis || state.kpis;\n        state.alarmHistory = saved.alarmHistory || [];\n        flow.set('plantState', state);\n        node.status({fill: 'green', shape: 'dot', text: 'Estado restaurado de disco'});\n    }\n} catch (e) {\n    node.status({fill: 'yellow', shape: 'ring', text: 'Sin archivo previo, usando defaults'});\n}\nreturn null;",
+        "outputs": 0,
+        "noerr": 0,
+        "x": 670,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "sim_init_fn",
+        "type": "function",
+        "z": "tab_a02_simulator",
+        "name": "CONFIG Centralizada y Estado Inicial",
+        "func": "// ============================================================================\n// CONFIGURACIÓN CENTRALIZADA (Fácil adaptación ante cambios de requerimientos)\n// ============================================================================\nconst CONFIG = {\n    deviceId: 'UTMACH-A02-PUMP-STATION-01',\n    dtSeconds: 1.0,\n    tank: {\n        maxVolumeL: 2000.0,       // Parámetro de referencia: 2000 L\n        initialLevelPct: 55.0,    // Inicia en 55% para observar llenado hacia 65%\n        defaultTargetPct: 65.0,   // Nivel objetivo de referencia: 65%\n        minSafeTargetPct: 15.0,\n        maxSafeTargetPct: 95.0\n    },\n    pumps: {\n        P1: { id: 'P1', nominalFlowLmin: 80.0, idlePowerKw: 0.35, nominalPressureBar: 2.15 },\n        P2: { id: 'P2', nominalFlowLmin: 80.0, idlePowerKw: 0.35, nominalPressureBar: 2.15 },\n        parallelLossFactor: 0.94, // Factor hidráulico cuando operan 2 bombas en paralelo\n        electroMechEfficiency: 0.72\n    },\n    control: {\n        hysteresisLow1Pct: 1.5,   // Activa bomba principal si nivel < target - 1.5%\n        hysteresisLow2Pct: 8.0,   // Activa bomba apoyo si nivel < target - 8.0%\n        hysteresisHigh1Pct: 1.0,  // Apaga bomba apoyo si nivel >= target + 1.0%\n        hysteresisHigh2Pct: 2.0   // Apaga bomba principal si nivel >= target + 2.0%\n    },\n    alarms: {\n        lowLevelThresholdPct: 20.0,\n        overpressureThresholdBar: 4.5,\n        dryRunCriticalLevelPct: 8.0\n    },\n    topics: {\n        telemetry: 'utm/iot/A02/telemetry',\n        status: 'utm/iot/A02/status',\n        commands: 'utm/iot/A02/commands',\n        alarms: 'utm/iot/A02/alarms',\n        ack: 'utm/iot/A02/ack'\n    }\n};\n\nconst initialVolumeL = (CONFIG.tank.initialLevelPct / 100.0) * CONFIG.tank.maxVolumeL;\n\nconst plantState = {\n    initializedAt: new Date().toISOString(),\n    totalSimSeconds: 0,\n    activePumpSeconds: 0,\n    mode: 'AUTO',                 // 'AUTO' | 'MANUAL'\n    targetLevelPct: CONFIG.tank.defaultTargetPct,\n    primaryPump: 'P1',            // 'P1' | 'P2'\n    volumeL: initialVolumeL,\n    levelPct: CONFIG.tank.initialLevelPct,\n    inflowLmin: 0.0,\n    outflowLmin: 40.0,\n    netFlowLmin: 0.0,\n    pressureBar: 0.22,\n    powerKw: 0.0,\n    safetyInterlockActive: false,\n    interlockReason: 'NONE',\n    pumps: {\n        P1: { active: true, fault: false, efficiency: 1.0, currentFlowLmin: 0.0 },\n        P2: { active: false, fault: false, efficiency: 1.0, currentFlowLmin: 0.0 }\n    },\n    disturbances: {\n        baseDemandLmin: 40.0,     // Consumo normal inicial (40 L/min)\n        leakFlowLmin: 0.0,        // Fuga en tanque/tubería (0 L/min en operación normal)\n        suctionAvailable: true,   // Cisterna de succión con agua disponible\n        dischargeRestriction: 1.0 // 1.0 = normal, > 1.8 = obstrucción / sobrepresión\n    },\n    kpis: {\n        pumpedVolumeM3: 0.0,\n        estimatedEnergyKwh: 0.0,\n        activeTimePct: 0.0,\n        levelErrorPct: Math.abs(CONFIG.tank.defaultTargetPct - CONFIG.tank.initialLevelPct),\n        volumetricEfficiencyPct: 100.0\n    },\n    activeAlarms: {},\n    alarmHistory: [],\n    processedMsgIds: []\n};\n\nflow.set('CONFIG', CONFIG);\nflow.set('plantState', plantState);\nnode.status({fill: 'green', shape: 'dot', text: 'Planta A02 inicializada'});\nreturn null;",
+        "outputs": 0,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "sim_tick_inject",
+        "type": "inject",
+        "z": "tab_a02_simulator",
+        "name": "Reloj de Simulación (dt = 1s)",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1.0",
+        "topic": "tick",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "sim_physics_engine"
+            ]
+        ]
+    },
+    {
+        "id": "sim_physics_engine",
+        "type": "function",
+        "z": "tab_a02_simulator",
+        "name": "Motor Físico, Control, KPIs y Alarmas",
+        "func": "const CONFIG = flow.get('CONFIG');\nlet s = flow.get('plantState');\nif (!CONFIG || !s) return null;\n\nconst dt = CONFIG.dtSeconds;\nconst nowIso = new Date().toISOString();\ns.totalSimSeconds += dt;\n\n// 1. EVALUACIÓN DE ALARMAS Y BLOQUEOS DE SEGURIDAD (INTERLOCKS)\nconst anyPumpTryingToRun = s.pumps.P1.active || s.pumps.P2.active;\nconst isDryRunCondition = (!s.disturbances.suctionAvailable) || (s.levelPct < CONFIG.alarms.dryRunCriticalLevelPct && !s.disturbances.suctionAvailable);\n\n// Helper para gestionar disparo/despeje de alarmas\nfunction updateAlarm(code, name, conditionText, severity, isTriggered, currentValueStr) {\n    if (isTriggered) {\n        if (!s.activeAlarms[code]) {\n            const alarmObj = {\n                id: 'alm-' + Date.now() + '-' + code,\n                code: code,\n                name: name,\n                condition: conditionText,\n                severity: severity,\n                triggeredAt: nowIso,\n                currentValue: currentValueStr,\n                acknowledged: false,\n                acknowledgedAt: null\n            };\n            s.activeAlarms[code] = alarmObj;\n            s.alarmHistory.unshift(Object.assign({ event: 'TRIGGERED' }, alarmObj));\n            if (s.alarmHistory.length > 50) s.alarmHistory.pop();\n            return true;\n        } else {\n            s.activeAlarms[code].currentValue = currentValueStr;\n        }\n    } else {\n        if (s.activeAlarms[code]) {\n            const cleared = Object.assign({}, s.activeAlarms[code], {\n                event: 'CLEARED',\n                clearedAt: nowIso\n            });\n            s.alarmHistory.unshift(cleared);\n            if (s.alarmHistory.length > 50) s.alarmHistory.pop();\n            delete s.activeAlarms[code];\n            return true;\n        }\n    }\n    return false;\n}\n\n// 2. LÓGICA DE CONTROL AUTOMÁTICO (Si no hay bloqueo activo)\nconst secondaryPump = (s.primaryPump === 'P1') ? 'P2' : 'P1';\nconst primaryObj = s.pumps[s.primaryPump];\nconst secondaryObj = s.pumps[secondaryPump];\n\nif (s.mode === 'AUTO' && !s.safetyInterlockActive) {\n    const err = s.targetLevelPct - s.levelPct; // positivo si falta llenar\n    // Bomba principal\n    if (!primaryObj.fault) {\n        if (err >= CONFIG.control.hysteresisLow1Pct) primaryObj.active = true;\n        else if (err <= -CONFIG.control.hysteresisHigh2Pct) primaryObj.active = false;\n    } else {\n        primaryObj.active = false;\n    }\n    // Bomba secundaria (apoyo por alta demanda o por falla de la principal)\n    if (!secondaryObj.fault) {\n        if (primaryObj.fault && err >= CONFIG.control.hysteresisLow1Pct) {\n            secondaryObj.active = true; // Relevo automático por falla\n        } else if (err >= CONFIG.control.hysteresisLow2Pct || s.levelPct < CONFIG.alarms.lowLevelThresholdPct) {\n            secondaryObj.active = true; // Refuerzo en paralelo\n        } else if (err <= -CONFIG.control.hysteresisHigh1Pct) {\n            secondaryObj.active = false;\n        }\n    } else {\n        secondaryObj.active = false;\n    }\n}\n\n// Corte por nivel máximo (99.5%) para evitar rebose\nif (s.levelPct >= 99.5) {\n    s.pumps.P1.active = false;\n    s.pumps.P2.active = false;\n}\n\n// 3. CÁLCULO DE CAUDALES (Balance de Masa)\nconst activeCount = (s.pumps.P1.active ? 1 : 0) + (s.pumps.P2.active ? 1 : 0);\nconst parallelFactor = (activeCount === 2) ? CONFIG.pumps.parallelLossFactor : 1.0;\nconst suctionFactor = s.disturbances.suctionAvailable ? 1.0 : 0.05;\n\n// Ruido hidrodinámico acotado\nconst noiseP1 = s.pumps.P1.active ? (Math.random() - 0.5) * 1.2 : 0.0;\nconst noiseP2 = s.pumps.P2.active ? (Math.random() - 0.5) * 1.2 : 0.0;\n\ns.pumps.P1.currentFlowLmin = s.pumps.P1.active && !s.pumps.P1.fault\n    ? Math.max(0, CONFIG.pumps.P1.nominalFlowLmin * s.pumps.P1.efficiency * parallelFactor * suctionFactor + noiseP1)\n    : 0.0;\n\ns.pumps.P2.currentFlowLmin = s.pumps.P2.active && !s.pumps.P2.fault\n    ? Math.max(0, CONFIG.pumps.P2.nominalFlowLmin * s.pumps.P2.efficiency * parallelFactor * suctionFactor + noiseP2)\n    : 0.0;\n\ns.inflowLmin = s.pumps.P1.currentFlowLmin + s.pumps.P2.currentFlowLmin;\n\nconst demandNoise = (s.disturbances.baseDemandLmin > 0) ? (Math.random() - 0.5) * 1.6 : 0.0;\nconst effectiveDemand = (s.volumeL > 0) ? Math.max(0, s.disturbances.baseDemandLmin + demandNoise) : 0.0;\nconst effectiveLeak = (s.volumeL > 0) ? Math.max(0, s.disturbances.leakFlowLmin) : 0.0;\ns.outflowLmin = effectiveDemand + effectiveLeak;\ns.netFlowLmin = s.inflowLmin - s.outflowLmin;\n\n// Evolución del volumen y nivel en función de dt y del estado anterior\nconst deltaVolumeL = s.netFlowLmin * (dt / 60.0);\ns.volumeL = Math.min(CONFIG.tank.maxVolumeL, Math.max(0.0, s.volumeL + deltaVolumeL));\ns.levelPct = (s.volumeL / CONFIG.tank.maxVolumeL) * 100.0;\n\n// 4. CÁLCULO DE PRESIÓN (bar) Y POTENCIA ELÉCTRICA (kW)\nconst hydrostaticBar = 0.40 * (s.levelPct / 100.0);\nconst pump1Head = (s.pumps.P1.active && !s.pumps.P1.fault) ? CONFIG.pumps.P1.nominalPressureBar * s.pumps.P1.efficiency * suctionFactor : 0.0;\nconst pump2Head = (s.pumps.P2.active && !s.pumps.P2.fault) ? CONFIG.pumps.P2.nominalPressureBar * s.pumps.P2.efficiency * suctionFactor : 0.0;\nconst combinedPumpBar = (pump1Head + pump2Head) * (activeCount === 2 ? 0.88 : 1.0) * s.disturbances.dischargeRestriction;\nconst pressureDropOutflow = 0.0035 * s.outflowLmin;\nconst pressureNoise = (Math.random() - 0.5) * 0.04;\n\ns.pressureBar = Math.max(0.0, hydrostaticBar + combinedPumpBar - pressureDropOutflow + pressureNoise);\n\n// Potencia eléctrica P = P_vacio + (Q * P_bar) / (600 * eta)\nlet powerP1 = 0.0;\nif (s.pumps.P1.active) {\n    powerP1 = CONFIG.pumps.P1.idlePowerKw + (s.pumps.P1.currentFlowLmin * s.pressureBar) / (600.0 * CONFIG.pumps.electroMechEfficiency);\n}\nlet powerP2 = 0.0;\nif (s.pumps.P2.active) {\n    powerP2 = CONFIG.pumps.P2.idlePowerKw + (s.pumps.P2.currentFlowLmin * s.pressureBar) / (600.0 * CONFIG.pumps.electroMechEfficiency);\n}\ns.powerKw = Math.max(0.0, powerP1 + powerP2);\n\n// 5. EVALUACIÓN DE LAS 3 ALARMAS OBLIGATORIAS Y BLOQUEO POR ESTADO INSEGURO\nconst lowLevelTriggered = s.levelPct < CONFIG.alarms.lowLevelThresholdPct;\nconst overpressureTriggered = s.pressureBar > CONFIG.alarms.overpressureThresholdBar;\nconst dryRunTriggered = (!s.disturbances.suctionAvailable && (s.pumps.P1.active || s.pumps.P2.active || s.safetyInterlockActive)) || (s.levelPct < CONFIG.alarms.dryRunCriticalLevelPct && s.outflowLmin > s.inflowLmin && !s.disturbances.suctionAvailable);\n\nlet alarmsChanged = false;\nalarmsChanged = updateAlarm('LOW_LEVEL', 'Nivel Bajo en Tanque', 'Nivel < ' + CONFIG.alarms.lowLevelThresholdPct + ' %', 'HIGH', lowLevelTriggered, s.levelPct.toFixed(1) + ' %') || alarmsChanged;\nalarmsChanged = updateAlarm('OVERPRESSURE', 'Sobrepresión en Línea', 'Presión > ' + CONFIG.alarms.overpressureThresholdBar + ' bar', 'CRITICAL', overpressureTriggered, s.pressureBar.toFixed(2) + ' bar') || alarmsChanged;\nalarmsChanged = updateAlarm('DRY_RUN', 'Funcionamiento en Seco', 'Sin suministro en succión con demanda de bombeo', 'CRITICAL', dryRunTriggered, 'Succión: ' + (s.disturbances.suctionAvailable ? 'OK' : 'SECA')) || alarmsChanged;\n\n// Aplicación de Bloqueo por Estado Inseguro (Interlock)\nif (overpressureTriggered || dryRunTriggered) {\n    s.safetyInterlockActive = true;\n    s.interlockReason = dryRunTriggered ? 'PROTECCIÓN POR FUNCIONAMIENTO EN SECO' : 'PROTECCIÓN POR SOBREPRESIÓN (> 4.5 bar)';\n    s.pumps.P1.active = false;\n    s.pumps.P2.active = false;\n} else {\n    s.safetyInterlockActive = false;\n    s.interlockReason = 'NONE';\n}\n\n// 6. CÁLCULO DE LOS 5 KPIs OBLIGATORIOS\nif (s.pumps.P1.active || s.pumps.P2.active) {\n    s.activePumpSeconds += dt;\n}\n// 1. Volumen bombeado (m³): conversión de L a m³\ns.kpis.pumpedVolumeM3 += (s.inflowLmin * (dt / 60.0)) / 1000.0;\n// 2. Energía estimada (kWh): kW * (dt / 3600)\ns.kpis.estimatedEnergyKwh += s.powerKw * (dt / 3600.0);\n// 3. Tiempo activo (%)\ns.kpis.activeTimePct = (s.activePumpSeconds / Math.max(1, s.totalSimSeconds)) * 100.0;\n// 4. Error de nivel (%)\ns.kpis.levelErrorPct = Math.abs(s.targetLevelPct - s.levelPct);\n// 5. Eficiencia volumétrica (%)\nconst theoreticalFlow = activeCount * CONFIG.pumps.P1.nominalFlowLmin;\nif (theoreticalFlow > 0) {\n    const netDelivered = Math.max(0, s.inflowLmin - s.disturbances.leakFlowLmin);\n    s.kpis.volumetricEfficiencyPct = Math.min(100.0, Math.max(0.0, (netDelivered / theoreticalFlow) * 100.0));\n} else {\n    const avgPumpEff = ((s.pumps.P1.fault ? 0 : s.pumps.P1.efficiency) + (s.pumps.P2.fault ? 0 : s.pumps.P2.efficiency)) / 2.0;\n    const leakPenalty = s.disturbances.leakFlowLmin > 0 ? Math.max(0, 1 - s.disturbances.leakFlowLmin / 80.0) : 1.0;\n    s.kpis.volumetricEfficiencyPct = avgPumpEff * leakPenalty * 100.0;\n}\n\nflow.set('plantState', s);\n\n// Construcción de mensajes de salida\nconst telemetryMsg = {\n    topic: CONFIG.topics.telemetry,\n    payload: {\n        deviceId: CONFIG.deviceId,\n        timestamp: nowIso,\n        variables: {\n            level: { value: Number(s.levelPct.toFixed(2)), unit: '%', volumeL: Number(s.volumeL.toFixed(1)) },\n            flow: {\n                value: Number(s.inflowLmin.toFixed(2)),\n                unit: 'L/min',\n                inflowLmin: Number(s.inflowLmin.toFixed(2)),\n                outflowLmin: Number(s.outflowLmin.toFixed(2)),\n                leakLmin: Number(s.disturbances.leakFlowLmin.toFixed(2))\n            },\n            pressure: { value: Number(s.pressureBar.toFixed(2)), unit: 'bar' },\n            power: { value: Number(s.powerKw.toFixed(2)), unit: 'kW' }\n        },\n        kpis: {\n            pumpedVolumeM3: { value: Number(s.kpis.pumpedVolumeM3.toFixed(4)), unit: 'm³' },\n            estimatedEnergyKwh: { value: Number(s.kpis.estimatedEnergyKwh.toFixed(4)), unit: 'kWh' },\n            activeTimePct: { value: Number(s.kpis.activeTimePct.toFixed(1)), unit: '%' },\n            levelErrorPct: { value: Number(s.kpis.levelErrorPct.toFixed(2)), unit: '%' },\n            volumetricEfficiencyPct: { value: Number(s.kpis.volumetricEfficiencyPct.toFixed(1)), unit: '%' }\n        }\n    }\n};\n\nconst statusMsg = {\n    topic: CONFIG.topics.status,\n    payload: {\n        deviceId: CONFIG.deviceId,\n        timestamp: nowIso,\n        mode: s.mode,\n        targetLevelPct: s.targetLevelPct,\n        primaryPump: s.primaryPump,\n        safetyInterlockActive: s.safetyInterlockActive,\n        interlockReason: s.interlockReason,\n        pumps: {\n            P1: {\n                active: s.pumps.P1.active,\n                fault: s.pumps.P1.fault,\n                efficiency: s.pumps.P1.efficiency,\n                flowLmin: Number(s.pumps.P1.currentFlowLmin.toFixed(1))\n            },\n            P2: {\n                active: s.pumps.P2.active,\n                fault: s.pumps.P2.fault,\n                efficiency: s.pumps.P2.efficiency,\n                flowLmin: Number(s.pumps.P2.currentFlowLmin.toFixed(1))\n            }\n        },\n        disturbances: s.disturbances\n    }\n};\n\nconst alarmsMsg = {\n    topic: CONFIG.topics.alarms,\n    payload: {\n        deviceId: CONFIG.deviceId,\n        timestamp: nowIso,\n        activeAlarms: Object.values(s.activeAlarms),\n        history: s.alarmHistory.slice(0, 20)\n    }\n};\n\nlet persistMsg = null;\nif (Math.round(s.totalSimSeconds) % 5 === 0) {\n    persistMsg = {\n        payload: JSON.stringify({\n            volumeL: s.volumeL,\n            levelPct: s.levelPct,\n            targetLevelPct: s.targetLevelPct,\n            primaryPump: s.primaryPump,\n            mode: s.mode,\n            kpis: s.kpis,\n            alarmHistory: s.alarmHistory\n        }, null, 2)\n    };\n}\n\nnode.status({\n    fill: s.safetyInterlockActive ? 'red' : 'green',\n    shape: 'dot',\n    text: `Nivel: ${s.levelPct.toFixed(1)}% | Q_in: ${s.inflowLmin.toFixed(0)} L/m | P: ${s.pressureBar.toFixed(2)} bar`\n});\n\nreturn [telemetryMsg, statusMsg, alarmsMsg, persistMsg];",
+        "outputs": 4,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 160,
+        "wires": [
+            [
+                "mqtt_out_telemetry"
+            ],
+            [
+                "mqtt_out_status"
+            ],
+            [
+                "mqtt_out_alarms"
+            ],
+            [
+                "sim_save_file"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt_out_telemetry",
+        "type": "mqtt out",
+        "z": "tab_a02_simulator",
+        "name": "PUB telemetry (QoS 0)",
+        "topic": "utm/iot/A02/telemetry",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "mqtt_broker_local",
+        "x": 820,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "mqtt_out_status",
+        "type": "mqtt out",
+        "z": "tab_a02_simulator",
+        "name": "PUB status (QoS 1, Retained)",
+        "topic": "utm/iot/A02/status",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "mqtt_broker_local",
+        "x": 840,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "mqtt_out_alarms",
+        "type": "mqtt out",
+        "z": "tab_a02_simulator",
+        "name": "PUB alarms (QoS 1, Retained)",
+        "topic": "utm/iot/A02/alarms",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "mqtt_broker_local",
+        "x": 840,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "sim_save_file",
+        "type": "file",
+        "z": "tab_a02_simulator",
+        "name": "Guardar Persistencia Local",
+        "filename": "a02_sim_persistence.json",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 840,
+        "y": 250,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "mqtt_in_commands",
+        "type": "mqtt in",
+        "z": "tab_a02_simulator",
+        "name": "SUB utm/iot/A02/commands",
+        "topic": "utm/iot/A02/commands",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "mqtt_broker_local",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 320,
+        "wires": [
+            [
+                "sim_cmd_processor"
+            ]
+        ]
+    },
+    {
+        "id": "sim_cmd_processor",
+        "type": "function",
+        "z": "tab_a02_simulator",
+        "name": "Validador de Comandos, Idempotencia e Interlocks",
+        "func": "const CONFIG = flow.get('CONFIG');\nlet s = flow.get('plantState');\nif (!CONFIG || !s) return null;\n\nconst cmd = (typeof msg.payload === 'string') ? JSON.parse(msg.payload) : msg.payload;\nconst nowIso = new Date().toISOString();\nconst msgId = cmd.msgId || ('cmd-' + Date.now());\n\n// 1. PREVENCIÓN DE COMANDOS DUPLICADOS (Idempotencia)\nif (s.processedMsgIds.includes(msgId)) {\n    const dupAck = {\n        topic: CONFIG.topics.ack,\n        payload: {\n            ackId: 'ack-' + Date.now(),\n            msgId: msgId,\n            deviceId: CONFIG.deviceId,\n            timestamp: nowIso,\n            action: cmd.action || 'UNKNOWN',\n            status: 'IGNORED_DUPLICATE',\n            message: 'Comando duplicado detectado y descartado por idempotencia.'\n        }\n    };\n    return [dupAck, null, null];\n}\ns.processedMsgIds.push(msgId);\nif (s.processedMsgIds.length > 100) s.processedMsgIds.shift();\n\nlet ackStatus = 'EXECUTED';\nlet ackMessage = 'Maniobra ejecutada correctamente.';\nconst action = cmd.action;\nconst p = cmd.params || {};\n\n// 2. PROCESAMIENTO DE LAS 3 ACCIONES DE CONTROL Y ESCENARIOS DE INGENIERÍA\nswitch (action) {\n    case 'SET_PUMP_STATE': {\n        const pumpId = p.pumpId; // 'P1' o 'P2'\n        const targetActive = Boolean(p.active);\n        if (!s.pumps[pumpId]) {\n            ackStatus = 'REJECTED_INVALID_PARAM';\n            ackMessage = 'Identificador de bomba inválido.';\n        } else if (targetActive && s.safetyInterlockActive) {\n            ackStatus = 'REJECTED_UNSAFE_STATE';\n            ackMessage = `Bloqueo por estado inseguro activo: ${s.interlockReason}. No se puede encender ${pumpId}.`;\n        } else if (targetActive && s.pumps[pumpId].fault) {\n            ackStatus = 'REJECTED_UNSAFE_STATE';\n            ackMessage = `Bloqueo: La bomba ${pumpId} se encuentra averiada (falla electromecánica).`;\n        } else if (targetActive && s.levelPct >= 99.0) {\n            ackStatus = 'REJECTED_UNSAFE_STATE';\n            ackMessage = 'Bloqueo por seguridad: Tanque lleno (>= 99%).';\n        } else {\n            // Al operar manualmente una bomba, pasa a modo MANUAL o respeta el modo indicado\n            if (p.forceManual !== false) s.mode = 'MANUAL';\n            s.pumps[pumpId].active = targetActive;\n            ackMessage = `Bomba ${pumpId} ${targetActive ? 'ACTIVADA' : 'DESACTIVADA'} en modo ${s.mode}.`;\n        }\n        break;\n    }\n    case 'SET_TARGET_LEVEL': {\n        const newTarget = Number(p.targetLevelPct);\n        if (isNaN(newTarget) || newTarget < CONFIG.tank.minSafeTargetPct || newTarget > CONFIG.tank.maxSafeTargetPct) {\n            ackStatus = 'REJECTED_UNSAFE_STATE';\n            ackMessage = `Consigna fuera de rango seguro (${CONFIG.tank.minSafeTargetPct}% - ${CONFIG.tank.maxSafeTargetPct}%).`;\n        } else {\n            s.targetLevelPct = newTarget;\n            ackMessage = `Nivel objetivo actualizado a ${newTarget.toFixed(1)} %.`;\n        }\n        break;\n    }\n    case 'TOGGLE_PRIMARY_PUMP': {\n        const requestedPrimary = p.primaryPump || (s.primaryPump === 'P1' ? 'P2' : 'P1');\n        if (s.pumps[requestedPrimary] && s.pumps[requestedPrimary].fault) {\n            ackStatus = 'REJECTED_UNSAFE_STATE';\n            ackMessage = `No se puede asignar ${requestedPrimary} como principal porque está en estado de falla.`;\n        } else {\n            s.primaryPump = (requestedPrimary === 'P2') ? 'P2' : 'P1';\n            ackMessage = `Bomba principal conmutada a ${s.primaryPump}.`;\n        }\n        break;\n    }\n    case 'SET_CONTROL_MODE': {\n        s.mode = (p.mode === 'MANUAL') ? 'MANUAL' : 'AUTO';\n        ackMessage = `Modo de control cambiado a ${s.mode}.`;\n        break;\n    }\n    case 'ACK_ALARM': {\n        const code = p.alarmCode;\n        if (code === 'ALL') {\n            Object.values(s.activeAlarms).forEach(a => {\n                a.acknowledged = true;\n                a.acknowledgedAt = nowIso;\n            });\n            ackMessage = 'Todas las alarmas activas han sido reconocidas por el operador.';\n        } else if (s.activeAlarms[code]) {\n            s.activeAlarms[code].acknowledged = true;\n            s.activeAlarms[code].acknowledgedAt = nowIso;\n            ackMessage = `Alarma ${code} reconocida exitosamente.`;\n        } else {\n            ackStatus = 'IGNORED_NOT_ACTIVE';\n            ackMessage = `La alarma ${code} ya no se encuentra activa.`;\n        }\n        break;\n    }\n    case 'INJECT_SCENARIO': {\n        const sc = p.scenario;\n        if (sc === 'NORMAL_FILL') {\n            s.mode = 'AUTO';\n            s.targetLevelPct = 65.0;\n            s.pumps.P1.fault = false; s.pumps.P1.efficiency = 1.0;\n            s.pumps.P2.fault = false; s.pumps.P2.efficiency = 1.0;\n            s.disturbances.baseDemandLmin = 40.0;\n            s.disturbances.leakFlowLmin = 0.0;\n            s.disturbances.suctionAvailable = true;\n            s.disturbances.dischargeRestriction = 1.0;\n            ackMessage = 'Prueba 1 activada: Llenado y operación normal (Demanda = 40 L/min, Consigna = 65%).';\n        } else if (sc === 'HIGH_CONSUMPTION') {\n            s.mode = 'AUTO';\n            s.disturbances.baseDemandLmin = 125.0;\n            ackMessage = 'Prueba 2 activada: Aumento severo de consumo a 125 L/min (requiere entrada de bomba secundaria).';\n        } else if (sc === 'LEAK_FAULT') {\n            s.disturbances.leakFlowLmin = 55.0;\n            ackMessage = 'Prueba 3 activada: Fuga crítica de 55 L/min en tubería/tanque (caída de eficiencia volumétrica y nivel).';\n        } else if (sc === 'PUMP_FAULT') {\n            const targetFaultPump = s.primaryPump;\n            s.pumps[targetFaultPump].fault = true;\n            s.pumps[targetFaultPump].active = false;\n            s.pumps[targetFaultPump].efficiency = 0.0;\n            ackMessage = `Prueba 4 activada: Avería electromecánica en bomba principal (${targetFaultPump}). Conmutando a respaldo.`;\n        } else if (sc === 'DRY_RUN_FAULT') {\n            s.disturbances.suctionAvailable = false;\n            ackMessage = 'Falla inyectada: Pérdida de suministro en cisterna de succión (Disparo de Funcionamiento en Seco).';\n        } else if (sc === 'OVERPRESSURE_FAULT') {\n            s.disturbances.dischargeRestriction = 2.4;\n            ackMessage = 'Falla inyectada: Obstrucción en colector de descarga (Disparo de Sobrepresión > 4.5 bar).';\n        } else if (sc === 'RECOVERY') {\n            s.mode = 'AUTO';\n            s.pumps.P1.fault = false; s.pumps.P1.efficiency = 1.0;\n            s.pumps.P2.fault = false; s.pumps.P2.efficiency = 1.0;\n            s.disturbances.baseDemandLmin = 40.0;\n            s.disturbances.leakFlowLmin = 0.0;\n            s.disturbances.suctionAvailable = true;\n            s.disturbances.dischargeRestriction = 1.0;\n            s.safetyInterlockActive = false;\n            s.interlockReason = 'NONE';\n            ackMessage = 'Prueba 5 activada: Recuperación integral del sistema, despeje de fallas y retorno a consigna.';\n        } else if (sc === 'CUSTOM_DISTURBANCE') {\n            if (typeof p.baseDemandLmin === 'number') s.disturbances.baseDemandLmin = Math.max(0, p.baseDemandLmin);\n            if (typeof p.leakFlowLmin === 'number') s.disturbances.leakFlowLmin = Math.max(0, p.leakFlowLmin);\n            if (typeof p.suctionAvailable === 'boolean') s.disturbances.suctionAvailable = p.suctionAvailable;\n            if (typeof p.dischargeRestriction === 'number') s.disturbances.dischargeRestriction = Math.max(0.5, p.dischargeRestriction);\n            ackMessage = 'Parámetros de ingeniería actualizados en el simulador.';\n        }\n        break;\n    }\n    default:\n        ackStatus = 'REJECTED_UNKNOWN_COMMAND';\n        ackMessage = `Acción desconocida: ${action}`;\n}\n\nflow.set('plantState', s);\n\nconst ackMsg = {\n    topic: CONFIG.topics.ack,\n    payload: {\n        ackId: 'ack-' + Date.now(),\n        msgId: msgId,\n        deviceId: CONFIG.deviceId,\n        timestamp: nowIso,\n        action: action,\n        status: ackStatus,\n        message: ackMessage\n    }\n};\n\nconst statusMsg = {\n    topic: CONFIG.topics.status,\n    payload: {\n        deviceId: CONFIG.deviceId,\n        timestamp: nowIso,\n        mode: s.mode,\n        targetLevelPct: s.targetLevelPct,\n        primaryPump: s.primaryPump,\n        safetyInterlockActive: s.safetyInterlockActive,\n        interlockReason: s.interlockReason,\n        pumps: {\n            P1: { active: s.pumps.P1.active, fault: s.pumps.P1.fault, efficiency: s.pumps.P1.efficiency, flowLmin: s.pumps.P1.currentFlowLmin },\n            P2: { active: s.pumps.P2.active, fault: s.pumps.P2.fault, efficiency: s.pumps.P2.efficiency, flowLmin: s.pumps.P2.currentFlowLmin }\n        },\n        disturbances: s.disturbances\n    }\n};\n\nconst alarmsMsg = {\n    topic: CONFIG.topics.alarms,\n    payload: {\n        deviceId: CONFIG.deviceId,\n        timestamp: nowIso,\n        activeAlarms: Object.values(s.activeAlarms),\n        history: s.alarmHistory.slice(0, 20)\n    }\n};\n\nreturn [ackMsg, statusMsg, alarmsMsg];",
+        "outputs": 3,
+        "noerr": 0,
+        "x": 520,
+        "y": 320,
+        "wires": [
+            [
+                "mqtt_out_ack"
+            ],
+            [
+                "mqtt_out_status"
+            ],
+            [
+                "mqtt_out_alarms"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt_out_ack",
+        "type": "mqtt out",
+        "z": "tab_a02_simulator",
+        "name": "PUB ack (QoS 1)",
+        "topic": "utm/iot/A02/ack",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "mqtt_broker_local",
+        "x": 830,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "dash_mqtt_in_all",
+        "type": "mqtt in",
+        "z": "tab_a02_dashboard",
+        "name": "SUB utm/iot/A02/# (Desde Broker)",
+        "topic": "utm/iot/A02/#",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "mqtt_broker_local",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "dash_state_manager"
+            ]
+        ]
+    },
+    {
+        "id": "dash_state_manager",
+        "type": "function",
+        "z": "tab_a02_dashboard",
+        "name": "Gestor de Buffer Histórico del Dashboard",
+        "func": "// Este flujo NO accede a ninguna variable del simulador; solo procesa lo recibido por MQTT.\nlet buffer = flow.get('telemetryBuffer') || [];\nlet lastStatus = flow.get('lastStatus') || null;\nlet lastAlarms = flow.get('lastAlarms') || null;\nlet ackLog = flow.get('ackLog') || [];\n\nconst topic = msg.topic;\nconst data = msg.payload;\n\nif (topic === 'utm/iot/A02/telemetry') {\n    buffer.push(data);\n    // Guardar hasta 600 muestras (10 minutos a 1s) para soportar ventana temporal configurable\n    if (buffer.length > 600) buffer.shift();\n    flow.set('telemetryBuffer', buffer);\n} else if (topic === 'utm/iot/A02/status') {\n    lastStatus = data;\n    flow.set('lastStatus', lastStatus);\n} else if (topic === 'utm/iot/A02/alarms') {\n    lastAlarms = data;\n    flow.set('lastAlarms', lastAlarms);\n} else if (topic === 'utm/iot/A02/ack') {\n    ackLog.unshift(data);\n    if (ackLog.length > 30) ackLog.pop();\n    flow.set('ackLog', ackLog);\n}\n\nconst wsMsg = {\n    payload: JSON.stringify({\n        type: 'MQTT_PACKET',\n        topic: topic,\n        data: data\n    })\n};\n\nreturn [wsMsg];",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 520,
+        "y": 120,
+        "wires": [
+            [
+                "ws_out_clients"
+            ]
+        ]
+    },
+    {
+        "id": "ws_out_clients",
+        "type": "websocket out",
+        "z": "tab_a02_dashboard",
+        "name": "Enviar a Clientes Web (/ws/a02)",
+        "server": "ws_listener_a02",
+        "client": "",
+        "x": 840,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ws_in_clients",
+        "type": "websocket in",
+        "z": "tab_a02_dashboard",
+        "name": "Recibir desde UI Web (/ws/a02)",
+        "server": "ws_listener_a02",
+        "client": "",
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [
+                "dash_ws_router"
+            ]
+        ]
+    },
+    {
+        "id": "dash_ws_router",
+        "type": "function",
+        "z": "tab_a02_dashboard",
+        "name": "Enrutador UI -> MQTT Commands / Sync",
+        "func": "let parsed;\ntry {\n    parsed = (typeof msg.payload === 'string') ? JSON.parse(msg.payload) : msg.payload;\n} catch (e) {\n    return null;\n}\n\n// Si el navegador acaba de conectarse o reconectarse, enviamos el buffer histórico y el último estado retenido\nif (parsed.type === 'REQUEST_SYNC') {\n    const syncPayload = {\n        type: 'INITIAL_SYNC',\n        history: flow.get('telemetryBuffer') || [],\n        lastStatus: flow.get('lastStatus') || null,\n        lastAlarms: flow.get('lastAlarms') || null,\n        ackLog: flow.get('ackLog') || []\n    };\n    return [null, { payload: JSON.stringify(syncPayload) }];\n}\n\n// Si el navegador envía un comando, lo publicamos en utm/iot/A02/commands por MQTT\nif (parsed.type === 'PUBLISH_COMMAND') {\n    const mqttMsg = {\n        topic: 'utm/iot/A02/commands',\n        payload: parsed.command\n    };\n    return [mqttMsg, null];\n}\n\nreturn null;",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 510,
+        "y": 220,
+        "wires": [
+            [
+                "dash_mqtt_out_cmd"
+            ],
+            [
+                "ws_out_clients"
+            ]
+        ]
+    },
+    {
+        "id": "dash_mqtt_out_cmd",
+        "type": "mqtt out",
+        "z": "tab_a02_dashboard",
+        "name": "PUB utm/iot/A02/commands (QoS 1)",
+        "topic": "utm/iot/A02/commands",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "mqtt_broker_local",
+        "x": 850,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "http_in_dashboard",
+        "type": "http in",
+        "z": "tab_a02_dashboard",
+        "name": "GET /a02-dashboard",
+        "url": "/a02-dashboard",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "http_template_dashboard"
+            ]
+        ]
+    },
+    {
+        "id": "http_template_dashboard",
+        "type": "template",
+        "z": "tab_a02_dashboard",
+        "name": "HTML/CSS/JS SCADA A02",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "plain",
+        "template": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>A02 · Estación de Bombeo Automatizada | Gemelo Digital UTMACH</title>\n  <style>\n    :root {\n      --bg-abyss: #0b0914;\n      --bg-surface: rgba(23, 19, 36, 0.86);\n      --bg-elevated: #1f1a30;\n      --bg-input: #120f1d;\n      --border-bronze: rgba(212, 163, 115, 0.25);\n      --border-glow: rgba(45, 212, 191, 0.45);\n      --text-primary: #f5ebe6;\n      --text-secondary: #a89f91;\n      --accent-jade: #2dd4bf;\n      --accent-copper: #f4a261;\n      --accent-orchid: #c084fc;\n      --status-ok: #34d399;\n      --status-warn: #fbbf24;\n      --status-crit: #fb7185;\n    }\n\n    * {\n      box-sizing: border-box;\n      margin: 0;\n      padding: 0;\n      font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;\n    }\n\n    body {\n      background: radial-gradient(circle at 15% 15%, #1b1429 0%, var(--bg-abyss) 55%, #07050c 100%);\n      color: var(--text-primary);\n      min-height: 100vh;\n      padding: 16px 22px;\n      overflow-x: hidden;\n    }\n\n    /* ==================== ANIMACIONES Y LETRAS FLOTANTES ==================== */\n    @keyframes floatText {\n      0%, 100% { transform: translateY(0px); }\n      50% { transform: translateY(-4px); }\n    }\n    @keyframes pulseGlow {\n      0%, 100% { text-shadow: 0 0 8px rgba(45, 212, 191, 0.45); }\n      50% { text-shadow: 0 0 18px rgba(244, 162, 97, 0.75); }\n    }\n    @keyframes spin { 100% { transform: rotate(360deg); } }\n    @keyframes flowDash { to { stroke-dashoffset: -24; } }\n    @keyframes alertBlink { 50% { opacity: 0.4; } }\n\n    .floating-title {\n      display: inline-block;\n      animation: floatText 4s ease-in-out infinite, pulseGlow 5s ease-in-out infinite;\n      font-weight: 800;\n      letter-spacing: 0.6px;\n      background: linear-gradient(90deg, var(--accent-jade), var(--accent-copper));\n      -webkit-background-clip: text;\n      -webkit-text-fill-color: transparent;\n    }\n\n    .floating-tag {\n      display: inline-block;\n      animation: floatText 3.2s ease-in-out infinite;\n      font-size: 0.72rem;\n      letter-spacing: 1.2px;\n      text-transform: uppercase;\n      color: var(--accent-copper);\n      background: rgba(244, 162, 97, 0.12);\n      border: 1px solid rgba(244, 162, 97, 0.35);\n      padding: 3px 10px;\n      border-radius: 999px;\n      margin-bottom: 4px;\n    }\n\n    .svg-floating-label {\n      animation: floatText 3s ease-in-out infinite;\n      filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.75));\n    }\n\n    /* ==================== CABECERA Y MENÚS DESPLEGABLES ==================== */\n    .top-navbar {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      flex-wrap: wrap;\n      gap: 14px;\n      background: var(--bg-surface);\n      backdrop-filter: blur(14px);\n      border: 1px solid var(--border-bronze);\n      border-radius: 14px;\n      padding: 14px 20px;\n      margin-bottom: 16px;\n      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);\n      position: relative;\n      z-index: 100;\n    }\n\n    .brand-zone p {\n      font-size: 0.78rem;\n      color: var(--text-secondary);\n      margin-top: 2px;\n    }\n    .brand-zone code {\n      color: var(--accent-jade);\n      background: rgba(45, 212, 191, 0.1);\n      padding: 2px 6px;\n      border-radius: 4px;\n    }\n\n    /* Barra de Menús Desplegables (Dropdowns) */\n    .nav-dropdowns {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n      flex-wrap: wrap;\n    }\n\n    .dropdown {\n      position: relative;\n      display: inline-block;\n    }\n\n    .drop-trigger {\n      background: var(--bg-elevated);\n      color: var(--text-primary);\n      border: 1px solid var(--border-bronze);\n      padding: 8px 14px;\n      border-radius: 9px;\n      font-size: 0.8rem;\n      font-weight: 600;\n      cursor: pointer;\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      transition: all 0.2s ease;\n    }\n    .drop-trigger:hover {\n      border-color: var(--accent-jade);\n      box-shadow: 0 0 12px rgba(45, 212, 191, 0.2);\n    }\n\n    .dropdown-menu {\n      display: none;\n      position: absolute;\n      right: 0;\n      top: calc(100% + 6px);\n      min-width: 240px;\n      background: #161224;\n      border: 1px solid var(--border-bronze);\n      border-radius: 12px;\n      padding: 10px;\n      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.75);\n      z-index: 150;\n    }\n    .dropdown:hover .dropdown-menu,\n    .dropdown:focus-within .dropdown-menu {\n      display: block;\n    }\n\n    .dropdown-menu .menu-title {\n      font-size: 0.7rem;\n      text-transform: uppercase;\n      letter-spacing: 0.8px;\n      color: var(--accent-copper);\n      padding: 4px 8px;\n      border-bottom: 1px solid rgba(212, 163, 115, 0.15);\n      margin-bottom: 6px;\n    }\n\n    .dropdown-item {\n      width: 100%;\n      text-align: left;\n      background: transparent;\n      border: none;\n      color: var(--text-primary);\n      padding: 8px 10px;\n      border-radius: 7px;\n      font-size: 0.8rem;\n      cursor: pointer;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      transition: background 0.15s;\n    }\n    .dropdown-item:hover {\n      background: rgba(45, 212, 191, 0.14);\n      color: var(--accent-jade);\n    }\n\n    /* Badges de Estado */\n    .status-strip {\n      display: flex;\n      gap: 8px;\n      align-items: center;\n      flex-wrap: wrap;\n    }\n    .badge {\n      padding: 5px 11px;\n      border-radius: 999px;\n      font-size: 0.74rem;\n      font-weight: 700;\n      border: 1px solid var(--border-bronze);\n      background: var(--bg-elevated);\n      letter-spacing: 0.4px;\n    }\n    .badge.online {\n      background: rgba(52, 211, 153, 0.14);\n      color: var(--status-ok);\n      border-color: rgba(52, 211, 153, 0.45);\n    }\n    .badge.offline {\n      background: rgba(251, 113, 133, 0.16);\n      color: var(--status-crit);\n      border-color: rgba(251, 113, 133, 0.45);\n    }\n    .badge.interlock {\n      background: rgba(251, 113, 133, 0.28);\n      color: #ffe4e6;\n      border-color: var(--status-crit);\n      animation: alertBlink 1s infinite;\n    }\n\n    /* ==================== CINTA COMPACTA DE KPIs (CORREGIDA) ==================== */\n    .kpi-ribbon {\n      display: grid;\n      grid-template-columns: repeat(5, 1fr);\n      gap: 12px;\n      margin-bottom: 18px;\n      position: relative;\n      z-index: 70;\n    }\n    @media (max-width: 1050px) {\n      .kpi-ribbon { grid-template-columns: repeat(2, 1fr); }\n    }\n\n    .kpi-pill {\n      background: var(--bg-surface);\n      border: 1px solid var(--border-bronze);\n      border-radius: 12px;\n      padding: 11px 14px;\n      position: relative;\n      z-index: 1;\n      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;\n    }\n    .kpi-pill:hover {\n      transform: translateY(-2px);\n      border-color: var(--accent-copper);\n      z-index: 85;\n      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);\n    }\n    .kpi-pill .k-lbl {\n      font-size: 0.72rem;\n      color: var(--text-secondary);\n      text-transform: uppercase;\n      letter-spacing: 0.5px;\n    }\n    .kpi-pill .k-num {\n      font-size: 1.35rem;\n      font-weight: 800;\n      color: var(--accent-jade);\n      margin-top: 3px;\n    }\n\n    /* Fórmula flotante desplegada HACIA ABAJO para no chocar con el banner superior */\n    .kpi-pill .k-floating-formula {\n      opacity: 0;\n      visibility: hidden;\n      pointer-events: none;\n      position: absolute;\n      top: calc(100% + 9px);\n      left: 10px;\n      background: #140f23;\n      border: 1px solid var(--accent-copper);\n      color: var(--accent-copper);\n      padding: 6px 11px;\n      border-radius: 8px;\n      font-size: 0.72rem;\n      font-family: monospace;\n      white-space: nowrap;\n      transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;\n      transform: translateY(-6px);\n      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.85);\n      z-index: 95;\n    }\n    /* Flecha superior del tooltip */\n    .kpi-pill .k-floating-formula::before {\n      content: '';\n      position: absolute;\n      top: -5px;\n      left: 16px;\n      width: 8px;\n      height: 8px;\n      background: #140f23;\n      border-top: 1px solid var(--accent-copper);\n      border-left: 1px solid var(--accent-copper);\n      transform: rotate(45deg);\n    }\n    .kpi-pill:hover .k-floating-formula {\n      opacity: 1;\n      visibility: visible;\n      transform: translateY(0);\n    }\n\n    /* ==================== LAYOUT PRINCIPAL DESATURADO ==================== */\n    .workspace-grid {\n      display: grid;\n      grid-template-columns: 1.45fr 1fr;\n      gap: 16px;\n      align-items: start;\n      position: relative;\n      z-index: 10;\n    }\n    @media (max-width: 1100px) {\n      .workspace-grid { grid-template-columns: 1fr; }\n    }\n\n    .glass-card {\n      background: var(--bg-surface);\n      border: 1px solid var(--border-bronze);\n      border-radius: 14px;\n      padding: 16px;\n      box-shadow: 0 8px 26px rgba(0, 0, 0, 0.35);\n      margin-bottom: 16px;\n    }\n\n    .card-header {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 12px;\n      padding-bottom: 8px;\n      border-bottom: 1px solid rgba(212, 163, 115, 0.16);\n    }\n    .card-header h2 {\n      font-size: 0.9rem;\n      text-transform: uppercase;\n      letter-spacing: 0.8px;\n      color: var(--accent-copper);\n    }\n\n    /* Cuatro Variables Dinámicas */\n    .telemetry-strip {\n      display: grid;\n      grid-template-columns: repeat(4, 1fr);\n      gap: 10px;\n      margin-bottom: 12px;\n    }\n    .tele-item {\n      background: var(--bg-elevated);\n      border-radius: 10px;\n      padding: 9px 11px;\n      border-left: 3px solid var(--accent-jade);\n    }\n    .tele-item:nth-child(2) { border-left-color: var(--accent-copper); }\n    .tele-item:nth-child(3) { border-left-color: var(--accent-orchid); }\n    .tele-item:nth-child(4) { border-left-color: var(--status-ok); }\n\n    .tele-item .t-name { font-size: 0.68rem; color: var(--text-secondary); letter-spacing: 0.4px; }\n    .tele-item .t-val { font-size: 1.2rem; font-weight: 800; margin: 2px 0; }\n    .tele-item .t-sub { font-size: 0.68rem; color: var(--text-secondary); }\n\n    /* ==================== ACORDEONES / MENÚS DESPLEGABLES INTERNOS ==================== */\n    details.collapsible-panel {\n      background: var(--bg-surface);\n      border: 1px solid var(--border-bronze);\n      border-radius: 12px;\n      margin-bottom: 12px;\n      overflow: hidden;\n      transition: border-color 0.2s;\n    }\n    details.collapsible-panel[open] {\n      border-color: rgba(45, 212, 191, 0.4);\n    }\n    details.collapsible-panel summary {\n      list-style: none;\n      cursor: pointer;\n      padding: 13px 16px;\n      font-size: 0.85rem;\n      font-weight: 700;\n      color: var(--text-primary);\n      background: rgba(31, 26, 48, 0.65);\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      user-select: none;\n    }\n    details.collapsible-panel summary::-webkit-details-marker { display: none; }\n    details.collapsible-panel summary::after {\n      content: '▾ Desplegar';\n      font-size: 0.72rem;\n      color: var(--accent-copper);\n      background: rgba(244, 162, 97, 0.12);\n      padding: 3px 9px;\n      border-radius: 99px;\n      transition: transform 0.2s ease;\n    }\n    details.collapsible-panel[open] summary::after {\n      content: '▴ Ocultar';\n      color: var(--accent-jade);\n      background: rgba(45, 212, 191, 0.12);\n    }\n    .panel-body {\n      padding: 14px 16px;\n      border-top: 1px solid rgba(212, 163, 115, 0.14);\n    }\n\n    /* ==================== CAMPOS CON LETRAS FLOTANTES (FLOATING LABELS) ==================== */\n    .floating-field {\n      position: relative;\n      display: inline-block;\n      min-width: 145px;\n    }\n    .floating-field input,\n    .floating-field select {\n      width: 100%;\n      background: var(--bg-input);\n      border: 1px solid var(--border-bronze);\n      color: var(--text-primary);\n      padding: 14px 10px 6px 10px;\n      border-radius: 8px;\n      font-size: 0.85rem;\n      outline: none;\n      transition: border-color 0.2s;\n    }\n    .floating-field input:focus,\n    .floating-field select:focus {\n      border-color: var(--accent-jade);\n    }\n    .floating-field label {\n      position: absolute;\n      left: 10px;\n      top: 4px;\n      font-size: 0.63rem;\n      text-transform: uppercase;\n      letter-spacing: 0.5px;\n      color: var(--accent-copper);\n      pointer-events: none;\n      transition: all 0.2s ease;\n    }\n\n    /* Botones Refinados */\n    .btn-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }\n    button.btn {\n      padding: 8px 13px;\n      border-radius: 8px;\n      border: 1px solid var(--border-bronze);\n      background: var(--bg-elevated);\n      color: var(--text-primary);\n      cursor: pointer;\n      font-size: 0.78rem;\n      font-weight: 600;\n      transition: all 0.18s ease;\n    }\n    button.btn:hover {\n      border-color: var(--accent-jade);\n      transform: translateY(-1px);\n    }\n    button.btn.jade { background: rgba(45, 212, 191, 0.18); border-color: var(--accent-jade); color: var(--accent-jade); }\n    button.btn.copper { background: rgba(244, 162, 97, 0.18); border-color: var(--accent-copper); color: var(--accent-copper); }\n    button.btn.crimson { background: rgba(251, 113, 133, 0.18); border-color: var(--status-crit); color: var(--status-crit); }\n\n    /* Animaciones SVG */\n    .impeller-spin { transform-box: fill-box; transform-origin: center; animation: spin 0.9s linear infinite; }\n    .pipe-flow { stroke-dasharray: 8 6; animation: flowDash 0.6s linear infinite; }\n\n    /* Tablas y ACK */\n    table { width: 100%; border-collapse: collapse; font-size: 0.76rem; }\n    th, td { padding: 7px 8px; border-bottom: 1px solid rgba(212, 163, 115, 0.14); text-align: left; }\n    th { color: var(--text-secondary); font-weight: 600; }\n    .sev-CRITICAL { color: var(--status-crit); font-weight: 700; }\n    .sev-HIGH { color: var(--status-warn); font-weight: 700; }\n\n    .ack-toast {\n      font-size: 0.76rem;\n      padding: 9px 12px;\n      border-radius: 8px;\n      background: var(--bg-input);\n      border-left: 4px solid var(--accent-jade);\n      margin-top: 10px;\n    }\n\n    canvas {\n      width: 100%;\n      height: 205px;\n      background: #0d0a17;\n      border-radius: 10px;\n      border: 1px solid var(--border-bronze);\n    }\n  </style>\n</head>\n<body>\n\n  <!-- ======================= CABECERA CON LETRAS FLOTANTES Y MENÚS DESPLEGABLES ======================= -->\n  <header class=\"top-navbar\">\n    <div class=\"brand-zone\">\n      <span class=\"floating-tag\">Gemelo Digital Industrial · Paralelo A</span>\n      <h1><span class=\"floating-title\">A02 · Estación de Bombeo Automatizada</span></h1>\n      <p>UTMACH · Comunicación MQTT en <code>utm/iot/A02/</code> · Tanque 2000 L &amp; 2 Bombas (80 L/min)</p>\n    </div>\n\n    <!-- Menús Desplegables Superiores -->\n    <div class=\"nav-dropdowns\">\n      <!-- Menú Desplegable 1: Maniobras Rápidas -->\n      <div class=\"dropdown\">\n        <button class=\"drop-trigger\">⚡ Maniobras Rápidas ▾</button>\n        <div class=\"dropdown-menu\">\n          <div class=\"menu-title\">Control Directo MQTT</div>\n          <button class=\"dropdown-item\" onclick=\"sendCommand('SET_CONTROL_MODE', { mode: 'AUTO' }, false)\">\n            <span>Modo Automático</span> <code>AUTO</code>\n          </button>\n          <button class=\"dropdown-item\" onclick=\"sendCommand('SET_CONTROL_MODE', { mode: 'MANUAL' }, false)\">\n            <span>Modo Manual</span> <code>MANUAL</code>\n          </button>\n          <button class=\"dropdown-item\" onclick=\"sendCommand('TOGGLE_PRIMARY_PUMP', {}, true)\">\n            <span>Alternar Bomba Líder</span> <code>B1 ↔ B2</code>\n          </button>\n          <button class=\"dropdown-item\" onclick=\"quickTarget(65)\">\n            <span>Restaurar Consigna 65%</span> <code>SP 65%</code>\n          </button>\n        </div>\n      </div>\n\n      <!-- Menú Desplegable 2: Cinco Pruebas de Aceptación -->\n      <div class=\"dropdown\">\n        <button class=\"drop-trigger\">🧪 Menú de 5 Pruebas ▾</button>\n        <div class=\"dropdown-menu\">\n          <div class=\"menu-title\">Escenarios Reproducibles A02</div>\n          <button class=\"dropdown-item\" onclick=\"triggerScenario('NORMAL_FILL')\">1. Llenado Normal (65%)</button>\n          <button class=\"dropdown-item\" onclick=\"triggerScenario('HIGH_CONSUMPTION')\">2. Aumento Consumo (125 L/m)</button>\n          <button class=\"dropdown-item\" onclick=\"triggerScenario('LEAK_FAULT')\">3. Fuga en Tanque (55 L/m)</button>\n          <button class=\"dropdown-item\" onclick=\"triggerScenario('PUMP_FAULT')\">4. Avería Bomba Principal</button>\n          <button class=\"dropdown-item\" onclick=\"triggerScenario('RECOVERY')\">5. Recuperación Integral</button>\n          <div class=\"menu-title\" style=\"margin-top:6px;\">Bloqueos de Seguridad</div>\n          <button class=\"dropdown-item\" onclick=\"triggerScenario('DRY_RUN_FAULT')\">⚠ Funcionamiento en Seco</button>\n          <button class=\"dropdown-item\" onclick=\"triggerScenario('OVERPRESSURE_FAULT')\">⚠ Sobrepresión (&gt; 4.5 bar)</button>\n        </div>\n      </div>\n\n      <!-- Menú Desplegable 3: Disposición de Paneles -->\n      <div class=\"dropdown\">\n        <button class=\"drop-trigger\">🗂 Vista de Paneles ▾</button>\n        <div class=\"dropdown-menu\">\n          <div class=\"menu-title\">Control de Saturación Visual</div>\n          <button class=\"dropdown-item\" onclick=\"toggleAllPanels(true)\">Expandir Todos los Módulos</button>\n          <button class=\"dropdown-item\" onclick=\"toggleAllPanels(false)\">Modo Minimalista (Compactar)</button>\n          <button class=\"dropdown-item\" onclick=\"focusEngineering()\">Abrir Consola de Ingeniería</button>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"status-strip\">\n      <span id=\"connBadge\" class=\"badge offline\">MQTT: DESCONECTADO</span>\n      <span id=\"modeBadge\" class=\"badge\">MODO: AUTO</span>\n      <span id=\"primaryBadge\" class=\"badge\">LÍDER: P1</span>\n      <span id=\"interlockBadge\" class=\"badge interlock\" style=\"display:none;\">BLOQUEO ACTIVO</span>\n    </div>\n  </header>\n\n  <!-- ======================= CINTA DE 5 KPIs (CON FÓRMULAS FLOTANTES HACIA ABAJO) ======================= -->\n  <section class=\"kpi-ribbon\">\n    <div class=\"kpi-pill\">\n      <div class=\"k-floating-formula\">Fórmula: ∫ Q_in(t)·dt / 60000 [m³]</div>\n      <div class=\"k-lbl\">1. Volumen Bombeado</div>\n      <div class=\"k-num\"><span id=\"kpiVol\">0.0000</span> <small style=\"font-size:0.75rem;color:var(--text-secondary);\">m³</small></div>\n    </div>\n    <div class=\"kpi-pill\">\n      <div class=\"k-floating-formula\">Fórmula: ∫ W(t)·dt / 3600 [kWh]</div>\n      <div class=\"k-lbl\">2. Energía Estimada</div>\n      <div class=\"k-num\"><span id=\"kpiEnergy\">0.0000</span> <small style=\"font-size:0.75rem;color:var(--text-secondary);\">kWh</small></div>\n    </div>\n    <div class=\"kpi-pill\">\n      <div class=\"k-floating-formula\">Fórmula: (t_activo / t_total) × 100 [%]</div>\n      <div class=\"k-lbl\">3. Tiempo Activo</div>\n      <div class=\"k-num\"><span id=\"kpiActive\">0.0</span> <small style=\"font-size:0.75rem;color:var(--text-secondary);\">%</small></div>\n    </div>\n    <div class=\"kpi-pill\">\n      <div class=\"k-floating-formula\">Fórmula: |L_setpoint - L_actual| [%]</div>\n      <div class=\"k-lbl\">4. Error de Nivel</div>\n      <div class=\"k-num\"><span id=\"kpiError\">0.00</span> <small style=\"font-size:0.75rem;color:var(--text-secondary);\">%</small></div>\n    </div>\n    <div class=\"kpi-pill\">\n      <div class=\"k-floating-formula\">Fórmula: (Q_útil / Q_nominal) × 100 [%]</div>\n      <div class=\"k-lbl\">5. Eficiencia Volumétrica</div>\n      <div class=\"k-num\"><span id=\"kpiEff\">100.0</span> <small style=\"font-size:0.75rem;color:var(--text-secondary);\">%</small></div>\n    </div>\n  </section>\n\n  <!-- ======================= ÁREA PRINCIPAL DE TRABAJO ======================= -->\n  <main class=\"workspace-grid\">\n\n    <!-- COLUMNA IZQUIERDA: SINÓPTICO Y GRÁFICAS HISTÓRICAS DESPLEGABLES -->\n    <div>\n      <div class=\"glass-card\">\n        <div class=\"card-header\">\n          <h2>Sinóptico Hidráulico en Tiempo Real</h2>\n          <span style=\"font-size:0.74rem; color:var(--text-secondary);\">Paso de integración: Δt = 1 s</span>\n        </div>\n\n        <!-- 4 Variables Obligatorias -->\n        <div class=\"telemetry-strip\">\n          <div class=\"tele-item\">\n            <div class=\"t-name\">NIVEL TANQUE</div>\n            <div class=\"t-val\"><span id=\"valLevel\">55.0</span> %</div>\n            <div class=\"t-sub\"><span id=\"valVolL\">1100</span>/2000 L · SP: <span id=\"valTarget\">65</span>%</div>\n          </div>\n          <div class=\"tele-item\">\n            <div class=\"t-name\">CAUDAL ENTRADA</div>\n            <div class=\"t-val\"><span id=\"valFlow\">0.0</span> L/m</div>\n            <div class=\"t-sub\">Demanda: <span id=\"valOutflow\">40.0</span> L/m</div>\n          </div>\n          <div class=\"tele-item\">\n            <div class=\"t-name\">PRESIÓN LÍNEA</div>\n            <div class=\"t-val\"><span id=\"valPressure\">0.22</span> bar</div>\n            <div class=\"t-sub\">Umbral máx: 4.50 bar</div>\n          </div>\n          <div class=\"tele-item\">\n            <div class=\"t-name\">POTENCIA ACTIVA</div>\n            <div class=\"t-val\"><span id=\"valPower\">0.00</span> kW</div>\n            <div class=\"t-sub\">Consumo eléctrico B1+B2</div>\n          </div>\n        </div>\n\n        <!-- SVG con Letras Flotantes y Animación de Actuadores -->\n        <svg viewBox=\"0 0 700 300\" width=\"100%\" height=\"260\" style=\"background:#0d0a17; border-radius:12px; border:1px solid var(--border-bronze);\">\n          <!-- Cisterna de Succión -->\n          <rect x=\"20\" y=\"175\" width=\"95\" height=\"95\" rx=\"8\" fill=\"#171326\" stroke=\"#a89f91\" stroke-width=\"2\"/>\n          <rect id=\"svgSuctionWater\" x=\"24\" y=\"205\" width=\"87\" height=\"61\" fill=\"#2dd4bf\" opacity=\"0.55\"/>\n          <text x=\"67\" y=\"164\" fill=\"#f4a261\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" class=\"svg-floating-label\">SUCCIÓN</text>\n\n          <!-- Tuberías hacia Bombas -->\n          <path d=\"M 115 235 L 165 235 L 165 105 L 210 105\" fill=\"none\" stroke=\"#2a243d\" stroke-width=\"8\"/>\n          <path d=\"M 115 235 L 165 235 L 165 215 L 210 215\" fill=\"none\" stroke=\"#2a243d\" stroke-width=\"8\"/>\n\n          <!-- Tuberías de impulsión al tanque -->\n          <path d=\"M 270 105 L 350 105 L 350 62 L 430 62\" fill=\"none\" stroke=\"#2a243d\" stroke-width=\"8\"/>\n          <path id=\"svgPipeP1\" d=\"M 270 105 L 350 105 L 350 62 L 430 62\" fill=\"none\" stroke=\"#2dd4bf\" stroke-width=\"4\" class=\"pipe-flow\" style=\"display:none;\"/>\n\n          <path d=\"M 270 215 L 350 215 L 350 62 L 430 62\" fill=\"none\" stroke=\"#2a243d\" stroke-width=\"8\"/>\n          <path id=\"svgPipeP2\" d=\"M 270 215 L 350 215 L 350 62 L 430 62\" fill=\"none\" stroke=\"#2dd4bf\" stroke-width=\"4\" class=\"pipe-flow\" style=\"display:none;\"/>\n\n          <!-- Bomba 1 -->\n          <circle id=\"svgPump1Body\" cx=\"240\" cy=\"105\" r=\"29\" fill=\"#171326\" stroke=\"#34d399\" stroke-width=\"3\"/>\n          <g id=\"svgPump1Impeller\">\n            <line x1=\"221\" y1=\"105\" x2=\"259\" y2=\"105\" stroke=\"#f5ebe6\" stroke-width=\"3\"/>\n            <line x1=\"240\" y1=\"86\" x2=\"240\" y2=\"124\" stroke=\"#f5ebe6\" stroke-width=\"3\"/>\n          </g>\n          <text x=\"240\" y=\"66\" fill=\"#f5ebe6\" font-size=\"11\" font-weight=\"bold\" text-anchor=\"middle\" class=\"svg-floating-label\">BOMBA B1 (80 L/m)</text>\n          <text id=\"svgPump1Text\" x=\"240\" y=\"150\" fill=\"#34d399\" font-size=\"10.5\" text-anchor=\"middle\">OFF (0.0 L/m)</text>\n\n          <!-- Bomba 2 -->\n          <circle id=\"svgPump2Body\" cx=\"240\" cy=\"215\" r=\"29\" fill=\"#171326\" stroke=\"#a89f91\" stroke-width=\"3\"/>\n          <g id=\"svgPump2Impeller\">\n            <line x1=\"221\" y1=\"215\" x2=\"259\" y2=\"215\" stroke=\"#f5ebe6\" stroke-width=\"3\"/>\n            <line x1=\"240\" y1=\"196\" x2=\"240\" y2=\"234\" stroke=\"#f5ebe6\" stroke-width=\"3\"/>\n          </g>\n          <text x=\"240\" y=\"177\" fill=\"#f5ebe6\" font-size=\"11\" font-weight=\"bold\" text-anchor=\"middle\" class=\"svg-floating-label\">BOMBA B2 (80 L/m)</text>\n          <text id=\"svgPump2Text\" x=\"240\" y=\"260\" fill=\"#a89f91\" font-size=\"10.5\" text-anchor=\"middle\">OFF (0.0 L/m)</text>\n\n          <!-- Manómetro Digital Flotante -->\n          <circle cx=\"350\" cy=\"36\" r=\"18\" fill=\"#120f1d\" stroke=\"#c084fc\" stroke-width=\"2\"/>\n          <text id=\"svgPressureGauge\" x=\"350\" y=\"40\" fill=\"#c084fc\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\">0.2b</text>\n\n          <!-- Tanque 2000 L -->\n          <rect x=\"430\" y=\"45\" width=\"145\" height=\"230\" rx=\"12\" fill=\"#171326\" stroke=\"#d4a373\" stroke-width=\"2.5\"/>\n          <rect id=\"svgTankWater\" x=\"434\" y=\"149\" width=\"137\" height=\"122\" fill=\"#2dd4bf\" opacity=\"0.65\"/>\n          <line id=\"svgSetpointLine\" x1=\"425\" y1=\"126\" x2=\"580\" y2=\"126\" stroke=\"#f4a261\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n          <text id=\"svgSetpointLabel\" x=\"585\" y=\"130\" fill=\"#f4a261\" font-size=\"11\" font-weight=\"bold\" class=\"svg-floating-label\">SP: 65%</text>\n          <text id=\"svgTankCenterText\" x=\"502\" y=\"165\" fill=\"#ffffff\" font-size=\"19\" font-weight=\"bold\" text-anchor=\"middle\" class=\"svg-floating-label\">55.0%</text>\n\n          <!-- Tubería de Consumo -->\n          <path d=\"M 575 255 L 675 255\" fill=\"none\" stroke=\"#2a243d\" stroke-width=\"8\"/>\n          <path id=\"svgPipeOut\" d=\"M 575 255 L 675 255\" fill=\"none\" stroke=\"#f4a261\" stroke-width=\"4\" class=\"pipe-flow\"/>\n          <text x=\"630\" y=\"240\" fill=\"#a89f91\" font-size=\"10\" text-anchor=\"middle\">DEMANDA</text>\n\n          <!-- Alerta Visual de Fuga -->\n          <g id=\"svgLeakGroup\" style=\"display:none;\">\n            <path d=\"M 480 275 L 480 298\" stroke=\"#fb7185\" stroke-width=\"4\" stroke-dasharray=\"4 3\" class=\"pipe-flow\"/>\n            <text x=\"500\" y=\"293\" fill=\"#fb7185\" font-size=\"11\" font-weight=\"bold\" class=\"svg-floating-label\">¡FUGA ACTIVA!</text>\n          </g>\n        </svg>\n\n        <div id=\"lastAckBox\" class=\"ack-toast\">\n          <strong>Confirmación MQTT (/ack):</strong> Esperando comandos del operador...\n        </div>\n      </div>\n\n      <!-- DESPLEGABLE: GRÁFICAS HISTÓRICAS Y VENTANA TEMPORAL -->\n      <details class=\"collapsible-panel\" open>\n        <summary>📈 Tendencias Históricas y Ventana Temporal Configurable</summary>\n        <div class=\"panel-body\">\n          <div style=\"display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:10px;\">\n            <div style=\"display:flex; gap:14px; font-size:0.75rem;\">\n              <span style=\"color:var(--accent-jade);\">● Nivel (%)</span>\n              <span style=\"color:var(--accent-copper);\">-- Consigna (%)</span>\n              <span style=\"color:var(--status-ok);\">● Caudal (L/min)</span>\n              <span style=\"color:var(--accent-orchid);\">● Presión ×20 (bar)</span>\n            </div>\n            <div class=\"floating-field\" style=\"min-width:170px;\">\n              <label for=\"selectTimeWindow\">Ventana Histórica</label>\n              <select id=\"selectTimeWindow\" onchange=\"drawCharts()\">\n                <option value=\"30\">Últimos 30 segundos</option>\n                <option value=\"60\" selected>Último 1 minuto (60 s)</option>\n                <option value=\"180\">Últimos 3 minutos (180 s)</option>\n                <option value=\"300\">Últimos 5 minutos (300 s)</option>\n              </select>\n            </div>\n          </div>\n          <canvas id=\"chartCanvas\" width=\"700\" height=\"205\"></canvas>\n        </div>\n      </details>\n    </div>\n\n    <!-- COLUMNA DERECHA: PANELES DESPLEGABLES DE CONTROL, ALARMAS E INGENIERÍA -->\n    <div>\n\n      <!-- DESPLEGABLE 1: LAS 3 ACCIONES DE CONTROL OPERATIVO -->\n      <details class=\"collapsible-panel\" open>\n        <summary>🎛 Centro de Maniobras Operativas (3 Acciones MQTT)</summary>\n        <div class=\"panel-body\">\n          <div style=\"margin-bottom:12px;\">\n            <div style=\"font-size:0.75rem; color:var(--text-secondary); margin-bottom:6px;\">\n              <strong>1. Activar / Desactivar Bombas y Modo de Operación</strong>\n            </div>\n            <div class=\"btn-row\" style=\"margin-bottom:8px;\">\n              <button class=\"btn jade\" onclick=\"sendCommand('SET_CONTROL_MODE', { mode: 'AUTO' }, false)\">Modo AUTO</button>\n              <button class=\"btn copper\" onclick=\"sendCommand('SET_CONTROL_MODE', { mode: 'MANUAL' }, false)\">Modo MANUAL</button>\n            </div>\n            <div class=\"btn-row\">\n              <button class=\"btn jade\" onclick=\"sendCommand('SET_PUMP_STATE', { pumpId: 'P1', active: true }, true)\">B1 ON</button>\n              <button class=\"btn crimson\" onclick=\"sendCommand('SET_PUMP_STATE', { pumpId: 'P1', active: false }, true)\">B1 OFF</button>\n              <button class=\"btn jade\" onclick=\"sendCommand('SET_PUMP_STATE', { pumpId: 'P2', active: true }, true)\">B2 ON</button>\n              <button class=\"btn crimson\" onclick=\"sendCommand('SET_PUMP_STATE', { pumpId: 'P2', active: false }, true)\">B2 OFF</button>\n            </div>\n          </div>\n\n          <div style=\"margin-bottom:12px; padding-top:10px; border-top:1px solid rgba(212,163,115,0.12);\">\n            <div style=\"font-size:0.75rem; color:var(--text-secondary); margin-bottom:6px;\">\n              <strong>2. Ajustar Nivel Objetivo (Consigna 15% - 95%)</strong>\n            </div>\n            <div class=\"btn-row\">\n              <div class=\"floating-field\" style=\"width:120px;\">\n                <label for=\"inputTargetLevel\">Consigna (%)</label>\n                <input type=\"number\" id=\"inputTargetLevel\" value=\"65\" min=\"15\" max=\"95\" step=\"1\" />\n              </div>\n              <button class=\"btn jade\" onclick=\"applyTargetLevel()\">Enviar SP</button>\n              <button class=\"btn\" onclick=\"quickTarget(50)\">50%</button>\n              <button class=\"btn\" onclick=\"quickTarget(65)\">65%</button>\n              <button class=\"btn\" onclick=\"quickTarget(80)\">80%</button>\n            </div>\n          </div>\n\n          <div style=\"margin-bottom:10px; padding-top:10px; border-top:1px solid rgba(212,163,115,0.12);\">\n            <div style=\"font-size:0.75rem; color:var(--text-secondary); margin-bottom:6px;\">\n              <strong>3. Alternar Bomba Principal (Líder / Respaldo)</strong>\n            </div>\n            <div class=\"btn-row\">\n              <button class=\"btn copper\" onclick=\"sendCommand('TOGGLE_PRIMARY_PUMP', {}, true)\">Conmutar B1 ↔ B2</button>\n              <button class=\"btn\" onclick=\"sendCommand('TOGGLE_PRIMARY_PUMP', { primaryPump: 'P1' }, false)\">Líder B1</button>\n              <button class=\"btn\" onclick=\"sendCommand('TOGGLE_PRIMARY_PUMP', { primaryPump: 'P2' }, false)\">Líder B2</button>\n            </div>\n          </div>\n\n          <label style=\"font-size:0.75rem; color:var(--text-secondary); display:flex; align-items:center; gap:6px; margin-top:8px;\">\n            <input type=\"checkbox\" id=\"chkConfirmManiobra\" checked />\n            Exigir confirmación de seguridad antes de publicar maniobras críticas\n          </label>\n        </div>\n      </details>\n\n      <!-- DESPLEGABLE 2: MONITOR DE ALARMAS Y RECONOCIMIENTO -->\n      <details class=\"collapsible-panel\" open>\n        <summary>🚨 Monitor de Alarmas y Reconocimiento (/alarms)</summary>\n        <div class=\"panel-body\">\n          <div style=\"display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;\">\n            <span style=\"font-size:0.74rem; color:var(--text-secondary);\">Umbrales: Nivel &lt; 20% | Presión &gt; 4.5 bar | Seco</span>\n            <button class=\"btn copper\" onclick=\"sendCommand('ACK_ALARM', { alarmCode: 'ALL' }, false)\">Reconocer Todas (ACK)</button>\n          </div>\n          <table>\n            <thead>\n              <tr>\n                <th>Alarma</th>\n                <th>Condición</th>\n                <th>Severidad</th>\n                <th>Valor</th>\n                <th>Hora</th>\n                <th>Acción</th>\n              </tr>\n            </thead>\n            <tbody id=\"alarmsTableBody\">\n              <tr><td colspan=\"6\" style=\"color:var(--text-secondary); text-align:center;\">Sin alarmas activas</td></tr>\n            </tbody>\n          </table>\n        </div>\n      </details>\n\n      <!-- DESPLEGABLE 3: VISTA DE INGENIERÍA, PERTURBACIONES Y BITÁCORA -->\n      <details id=\"engAccordion\" class=\"collapsible-panel\">\n        <summary>🛠️ Vista de Ingeniería: Pruebas, Fallas y Bitácora MQTT</summary>\n        <div class=\"panel-body\">\n          <div style=\"font-size:0.75rem; color:var(--text-secondary); margin-bottom:6px;\">\n            <strong>Inyección Directa de los 5 Escenarios de Aceptación:</strong>\n          </div>\n          <div class=\"btn-row\" style=\"margin-bottom:12px;\">\n            <button class=\"btn jade\" onclick=\"triggerScenario('NORMAL_FILL')\">1. Llenado Normal</button>\n            <button class=\"btn copper\" onclick=\"triggerScenario('HIGH_CONSUMPTION')\">2. Consumo 125 L/m</button>\n            <button class=\"btn crimson\" onclick=\"triggerScenario('LEAK_FAULT')\">3. Fuga 55 L/m</button>\n            <button class=\"btn crimson\" onclick=\"triggerScenario('PUMP_FAULT')\">4. Bomba Averiada</button>\n            <button class=\"btn jade\" onclick=\"triggerScenario('RECOVERY')\">5. Recuperación</button>\n          </div>\n\n          <div style=\"font-size:0.75rem; color:var(--text-secondary); margin-bottom:6px;\">\n            <strong>Pruebas de Bloqueo por Estado Inseguro (Interlocks):</strong>\n          </div>\n          <div class=\"btn-row\" style=\"margin-bottom:12px;\">\n            <button class=\"btn crimson\" onclick=\"triggerScenario('DRY_RUN_FAULT')\">Inyectar Funcionamiento en Seco</button>\n            <button class=\"btn crimson\" onclick=\"triggerScenario('OVERPRESSURE_FAULT')\">Inyectar Sobrepresión (&gt;4.5 bar)</button>\n          </div>\n\n          <div style=\"font-size:0.75rem; color:var(--text-secondary); margin-bottom:6px;\">\n            <strong>Parametrización Fina de Perturbaciones (Con Etiquetas Flotantes):</strong>\n          </div>\n          <div class=\"btn-row\" style=\"margin-bottom:12px;\">\n            <div class=\"floating-field\" style=\"width:115px;\">\n              <label for=\"engDemand\">Demanda (L/m)</label>\n              <input type=\"number\" id=\"engDemand\" value=\"40\" min=\"0\" max=\"200\" />\n            </div>\n            <div class=\"floating-field\" style=\"width:110px;\">\n              <label for=\"engLeak\">Fuga (L/m)</label>\n              <input type=\"number\" id=\"engLeak\" value=\"0\" min=\"0\" max=\"150\" />\n            </div>\n            <div class=\"floating-field\" style=\"width:115px;\">\n              <label for=\"engRestr\">Restricción</label>\n              <input type=\"number\" id=\"engRestr\" value=\"1.0\" min=\"0.8\" max=\"3.0\" step=\"0.1\" />\n            </div>\n            <button class=\"btn copper\" onclick=\"applyCustomEngineering()\">Aplicar</button>\n          </div>\n\n          <div style=\"font-size:0.75rem; color:var(--text-secondary); margin-bottom:4px;\">\n            <strong>Bitácora de Confirmaciones Recibidas (<code>utm/iot/A02/ack</code>):</strong>\n          </div>\n          <div style=\"max-height:150px; overflow-y:auto; border:1px solid var(--border-bronze); border-radius:8px; padding:4px;\">\n            <table>\n              <thead>\n                <tr>\n                  <th>Hora</th>\n                  <th>Comando / Estado</th>\n                  <th>Respuesta del Simulador</th>\n                </tr>\n              </thead>\n              <tbody id=\"engLogBody\"></tbody>\n            </table>\n          </div>\n        </div>\n      </details>\n\n    </div>\n  </main>\n\n  <script>\n    let ws = null;\n    let telemetryHistory = [];\n    let currentTargetPct = 65.0;\n\n    function toggleAllPanels(expand) {\n      document.querySelectorAll('details.collapsible-panel').forEach(d => {\n        d.open = expand;\n      });\n      if (expand) drawCharts();\n    }\n\n    function focusEngineering() {\n      const eng = document.getElementById('engAccordion');\n      if (eng) {\n        eng.open = true;\n        eng.scrollIntoView({ behavior: 'smooth' });\n      }\n    }\n\n    function connectWebSocket() {\n      const proto = window.location.protocol === 'https:' ? 'wss:' : 'ws:';\n      const host = window.location.host || 'localhost:1880';\n      ws = new WebSocket(`${proto}//${host}/ws/a02`);\n\n      ws.onopen = () => {\n        const badge = document.getElementById('connBadge');\n        badge.textContent = 'MQTT/WS: EN LÍNEA';\n        badge.className = 'badge online';\n        ws.send(JSON.stringify({ type: 'REQUEST_SYNC' }));\n      };\n\n      ws.onclose = () => {\n        const badge = document.getElementById('connBadge');\n        badge.textContent = 'MQTT/WS: RECONECTANDO...';\n        badge.className = 'badge offline';\n        setTimeout(connectWebSocket, 2000);\n      };\n\n      ws.onmessage = (event) => {\n        const msg = JSON.parse(event.data);\n        if (msg.type === 'INITIAL_SYNC') {\n          if (Array.isArray(msg.history)) telemetryHistory = msg.history;\n          if (msg.lastStatus) renderStatus(msg.lastStatus);\n          if (msg.lastAlarms) renderAlarms(msg.lastAlarms);\n          drawCharts();\n        } else if (msg.type === 'MQTT_PACKET') {\n          handleMqttPacket(msg.topic, msg.data);\n        }\n      };\n    }\n\n    function handleMqttPacket(topic, data) {\n      if (topic === 'utm/iot/A02/telemetry') {\n        telemetryHistory.push(data);\n        if (telemetryHistory.length > 600) telemetryHistory.shift();\n        renderTelemetry(data);\n        drawCharts();\n      } else if (topic === 'utm/iot/A02/status') {\n        renderStatus(data);\n      } else if (topic === 'utm/iot/A02/alarms') {\n        renderAlarms(data);\n      } else if (topic === 'utm/iot/A02/ack') {\n        renderAck(data);\n      }\n    }\n\n    function renderTelemetry(t) {\n      const v = t.variables;\n      const k = t.kpis;\n      document.getElementById('valLevel').textContent = v.level.value.toFixed(1);\n      document.getElementById('valVolL').textContent = v.level.volumeL.toFixed(0);\n      document.getElementById('valFlow').textContent = v.flow.inflowLmin.toFixed(1);\n      document.getElementById('valOutflow').textContent = v.flow.outflowLmin.toFixed(1);\n      document.getElementById('valPressure').textContent = v.pressure.value.toFixed(2);\n      document.getElementById('valPower').textContent = v.power.value.toFixed(2);\n\n      document.getElementById('kpiVol').textContent = k.pumpedVolumeM3.value.toFixed(4);\n      document.getElementById('kpiEnergy').textContent = k.estimatedEnergyKwh.value.toFixed(4);\n      document.getElementById('kpiActive').textContent = k.activeTimePct.value.toFixed(1);\n      document.getElementById('kpiError').textContent = k.levelErrorPct.value.toFixed(2);\n      document.getElementById('kpiEff').textContent = k.volumetricEfficiencyPct.value.toFixed(1);\n\n      const pct = Math.max(0, Math.min(100, v.level.value));\n      const h = (pct / 100.0) * 222.0;\n      const y = 271.0 - h;\n      const tankRect = document.getElementById('svgTankWater');\n      tankRect.setAttribute('y', y.toFixed(1));\n      tankRect.setAttribute('height', h.toFixed(1));\n      document.getElementById('svgTankCenterText').textContent = pct.toFixed(1) + '%';\n      document.getElementById('svgPressureGauge').textContent = v.pressure.value.toFixed(1) + 'b';\n      document.getElementById('svgLeakGroup').style.display = (v.flow.leakLmin > 0.5) ? 'block' : 'none';\n    }\n\n    function renderStatus(s) {\n      currentTargetPct = s.targetLevelPct;\n      document.getElementById('valTarget').textContent = s.targetLevelPct.toFixed(0);\n      document.getElementById('modeBadge').textContent = 'MODO: ' + s.mode;\n      document.getElementById('primaryBadge').textContent = 'LÍDER: ' + s.primaryPump;\n\n      const interlockEl = document.getElementById('interlockBadge');\n      if (s.safetyInterlockActive) {\n        interlockEl.style.display = 'inline-block';\n        interlockEl.textContent = 'BLOQUEO: ' + s.interlockReason;\n      } else {\n        interlockEl.style.display = 'none';\n      }\n\n      const spY = 271.0 - (s.targetLevelPct / 100.0) * 222.0;\n      document.getElementById('svgSetpointLine').setAttribute('y1', spY.toFixed(1));\n      document.getElementById('svgSetpointLine').setAttribute('y2', spY.toFixed(1));\n      document.getElementById('svgSetpointLabel').setAttribute('y', (spY + 4).toFixed(1));\n      document.getElementById('svgSetpointLabel').textContent = 'SP: ' + s.targetLevelPct.toFixed(0) + '%';\n\n      updatePumpSvg('1', s.pumps.P1);\n      updatePumpSvg('2', s.pumps.P2);\n\n      document.getElementById('svgSuctionWater').setAttribute('height', s.disturbances.suctionAvailable ? '61' : '6');\n      document.getElementById('svgSuctionWater').setAttribute('y', s.disturbances.suctionAvailable ? '205' : '260');\n    }\n\n    function updatePumpSvg(num, p) {\n      const body = document.getElementById('svgPump' + num + 'Body');\n      const imp = document.getElementById('svgPump' + num + 'Impeller');\n      const txt = document.getElementById('svgPump' + num + 'Text');\n      const pipe = document.getElementById('svgPipeP' + num);\n\n      if (p.fault) {\n        body.setAttribute('stroke', '#fb7185');\n        imp.classList.remove('impeller-spin');\n        txt.textContent = 'AVERIADA (FALLA)';\n        txt.setAttribute('fill', '#fb7185');\n        pipe.style.display = 'none';\n      } else if (p.active) {\n        body.setAttribute('stroke', '#34d399');\n        imp.classList.add('impeller-spin');\n        txt.textContent = `ON (${p.flowLmin.toFixed(1)} L/m)`;\n        txt.setAttribute('fill', '#34d399');\n        pipe.style.display = 'block';\n      } else {\n        body.setAttribute('stroke', '#a89f91');\n        imp.classList.remove('impeller-spin');\n        txt.textContent = 'OFF (0.0 L/m)';\n        txt.setAttribute('fill', '#a89f91');\n        pipe.style.display = 'none';\n      }\n    }\n\n    function renderAlarms(alarmPayload) {\n      const tbody = document.getElementById('alarmsTableBody');\n      const active = alarmPayload.activeAlarms || [];\n      if (active.length === 0) {\n        tbody.innerHTML = '<tr><td colspan=\"6\" style=\"color:var(--text-secondary); text-align:center;\">Planta operando sin alarmas activas</td></tr>';\n      } else {\n        tbody.innerHTML = active.map(a => `\n          <tr>\n            <td><strong>${a.code}</strong><br/><span style=\"font-size:0.68rem;color:var(--text-secondary);\">${a.name}</span></td>\n            <td>${a.condition}</td>\n            <td class=\"sev-${a.severity}\">${a.severity}</td>\n            <td>${a.currentValue}</td>\n            <td>${new Date(a.triggeredAt).toLocaleTimeString()}</td>\n            <td>\n              ${a.acknowledged\n                ? '<span style=\"color:var(--status-ok);font-weight:700;\">ACK OK</span>'\n                : `<button class=\"btn copper\" onclick=\"sendCommand('ACK_ALARM', { alarmCode: '${a.code}' }, false)\">ACK</button>`}\n            </td>\n          </tr>\n        `).join('');\n      }\n    }\n\n    function renderAck(ack) {\n      const box = document.getElementById('lastAckBox');\n      const isOk = ack.status === 'EXECUTED';\n      box.style.borderLeftColor = isOk ? '#2dd4bf' : '#fb7185';\n      box.innerHTML = `<strong>ACK [${ack.status}] (${new Date(ack.timestamp).toLocaleTimeString()}):</strong> ${ack.message} <code style=\"color:var(--text-secondary);\">(${ack.msgId})</code>`;\n\n      const logBody = document.getElementById('engLogBody');\n      const row = document.createElement('tr');\n      row.innerHTML = `<td>${new Date(ack.timestamp).toLocaleTimeString()}</td><td><code>${ack.action}</code> [${ack.status}]</td><td>${ack.message}</td>`;\n      logBody.prepend(row);\n    }\n\n    function sendCommand(action, params, isCritical) {\n      const requireConfirm = document.getElementById('chkConfirmManiobra').checked;\n      if (isCritical && requireConfirm) {\n        const ok = confirm(`Confirmación de Maniobra:\\n¿Ejecutar comando [${action}] con parámetros ${JSON.stringify(params)} vía MQTT?`);\n        if (!ok) return;\n      }\n      const commandPayload = {\n        msgId: 'cmd-' + Date.now() + '-' + Math.random().toString(36).substring(2, 6),\n        deviceId: 'UTMACH-A02-SCADA-HMI',\n        timestamp: new Date().toISOString(),\n        action: action,\n        params: params,\n        operatorConfirmed: true\n      };\n      if (ws && ws.readyState === WebSocket.OPEN) {\n        ws.send(JSON.stringify({ type: 'PUBLISH_COMMAND', command: commandPayload }));\n      }\n    }\n\n    function applyTargetLevel() {\n      const val = Number(document.getElementById('inputTargetLevel').value);\n      sendCommand('SET_TARGET_LEVEL', { targetLevelPct: val }, true);\n    }\n\n    function quickTarget(val) {\n      document.getElementById('inputTargetLevel').value = val;\n      sendCommand('SET_TARGET_LEVEL', { targetLevelPct: val }, false);\n    }\n\n    function triggerScenario(scName) {\n      sendCommand('INJECT_SCENARIO', { scenario: scName }, false);\n    }\n\n    function applyCustomEngineering() {\n      const d = Number(document.getElementById('engDemand').value);\n      const l = Number(document.getElementById('engLeak').value);\n      const r = Number(document.getElementById('engRestr').value);\n      sendCommand('INJECT_SCENARIO', {\n        scenario: 'CUSTOM_DISTURBANCE',\n        baseDemandLmin: d,\n        leakFlowLmin: l,\n        dischargeRestriction: r\n      }, false);\n    }\n\n    function drawCharts() {\n      const canvas = document.getElementById('chartCanvas');\n      if (!canvas) return;\n      const ctx = canvas.getContext('2d');\n      const W = canvas.width;\n      const H = canvas.height;\n      ctx.clearRect(0, 0, W, H);\n\n      const windowSec = Number(document.getElementById('selectTimeWindow').value) || 60;\n      const slice = telemetryHistory.slice(-windowSec);\n      if (slice.length < 2) return;\n\n      ctx.strokeStyle = 'rgba(212, 163, 115, 0.12)';\n      ctx.lineWidth = 1;\n      for (let i = 1; i <= 4; i++) {\n        const y = (H / 5) * i;\n        ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();\n      }\n\n      const maxScale = 165.0;\n\n      function plotLine(extractor, color, dashed) {\n        ctx.beginPath();\n        ctx.strokeStyle = color;\n        ctx.lineWidth = 2.2;\n        ctx.setLineDash(dashed ? [5, 4] : []);\n        slice.forEach((pt, idx) => {\n          const x = (idx / (slice.length - 1)) * (W - 20) + 10;\n          const val = extractor(pt);\n          const y = H - 12 - (Math.min(maxScale, Math.max(0, val)) / maxScale) * (H - 24);\n          if (idx === 0) ctx.moveTo(x, y);\n          else ctx.lineTo(x, y);\n        });\n        ctx.stroke();\n        ctx.setLineDash([]);\n      }\n\n      plotLine(() => currentTargetPct, '#f4a261', true);\n      plotLine(p => p.variables.level.value, '#2dd4bf', false);\n      plotLine(p => p.variables.flow.inflowLmin, '#34d399', false);\n      plotLine(p => p.variables.pressure.value * 20.0, '#c084fc', false);\n    }\n\n    window.addEventListener('load', connectWebSocket);\n  </script>\n</body>\n</html>",
+        "output": "str",
+        "x": 450,
+        "y": 320,
+        "wires": [
+            [
+                "http_out_dashboard"
+            ]
+        ]
+    },
+    {
+        "id": "http_out_dashboard",
+        "type": "http response",
+        "z": "tab_a02_dashboard",
+        "name": "HTTP 200 OK",
+        "statusCode": "200",
+        "headers": {},
+        "x": 700,
+        "y": 320,
+        "wires": []
+    }
+]
