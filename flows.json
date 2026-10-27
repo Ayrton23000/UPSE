@@ -2,7 +2,7 @@
     {
         "id": "41384e20b7cfc90e",
         "type": "tab",
-        "label": "Flujo 1",
+        "label": "Taller ",
         "disabled": false,
         "info": "",
         "env": []
@@ -10,7 +10,7 @@
     {
         "id": "97cadd6a03b3a1f9",
         "type": "tab",
-        "label": "Flujo 2",
+        "label": "Taller",
         "disabled": false,
         "info": "",
         "env": []
@@ -18,7 +18,7 @@
     {
         "id": "d76f28377849254e",
         "type": "tab",
-        "label": "Flujo 3",
+        "label": "Taller 1",
         "disabled": false,
         "info": "",
         "env": []
@@ -26,7 +26,7 @@
     {
         "id": "34b5ef16974c8a7d",
         "type": "tab",
-        "label": "Flujo 4",
+        "label": "Taller 1.1.",
         "disabled": false,
         "info": "",
         "env": []
@@ -34,7 +34,7 @@
     {
         "id": "788fac5247a4607c",
         "type": "tab",
-        "label": "Flujo 5",
+        "label": "Taller 2",
         "disabled": false,
         "info": "",
         "env": []
@@ -42,7 +42,7 @@
     {
         "id": "834996f9eac00211",
         "type": "tab",
-        "label": "Mqtt in y out ",
+        "label": "Taller 3 Mqtt in y out ",
         "disabled": false,
         "info": "",
         "env": []
@@ -50,7 +50,7 @@
     {
         "id": "644167451ff4a4db",
         "type": "tab",
-        "label": "Flujo 7",
+        "label": "Taller 4",
         "disabled": false,
         "info": "",
         "env": []
@@ -58,7 +58,7 @@
     {
         "id": "7fd9c006f2d6222a",
         "type": "tab",
-        "label": "Cliente",
+        "label": "Taller 5 Http Cliente ",
         "disabled": false,
         "info": "",
         "env": []
@@ -66,7 +66,7 @@
     {
         "id": "3b108794cc39fbe0",
         "type": "tab",
-        "label": "Servidor",
+        "label": "Taller 5 Http Servidor",
         "disabled": false,
         "info": "",
         "env": []
@@ -167,9 +167,9 @@
     {
         "id": "2a9ba2737fa7f69c",
         "type": "ui-page",
-        "name": "Page 1",
+        "name": "Taller 3",
         "ui": "27fe8e97bd485819",
-        "path": "/page1",
+        "path": "/T3",
         "icon": "home",
         "layout": "grid",
         "theme": "09e323884a6fa406",
@@ -231,7 +231,7 @@
     {
         "id": "a29f12068e3f8fe7",
         "type": "ui-group",
-        "name": "Grupo 3",
+        "name": "Taller 3",
         "page": "2a9ba2737fa7f69c",
         "width": 6,
         "height": 1,
@@ -474,11 +474,11 @@
     {
         "id": "ed7ccc5620e4ac18",
         "type": "ui-page",
-        "name": "Claud",
+        "name": "Taller 4",
         "ui": "27fe8e97bd485819",
-        "path": "/page2",
+        "path": "/T4",
         "icon": "home",
-        "layout": "grid",
+        "layout": "notebook",
         "theme": "09e323884a6fa406",
         "breakpoints": [
             {
@@ -510,7 +510,7 @@
     {
         "id": "e5e003171a36bc45",
         "type": "ui-group",
-        "name": "Group Name",
+        "name": "Taller 4",
         "page": "ed7ccc5620e4ac18",
         "width": 6,
         "height": 1,
@@ -639,7 +639,7 @@
     {
         "id": "0703454bb62d4367",
         "type": "ui_group",
-        "name": "nuev",
+        "name": "Taller 2",
         "tab": "b327d66620fa2338",
         "order": 1,
         "disp": true,
@@ -668,6 +668,331 @@
         "type": "websocket-listener",
         "path": "/ws/a02",
         "wholemsg": "false"
+    },
+    {
+        "id": "79619f29fecba0b6",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "fe6f508ac2ec2bb7",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "69bf633eedbdfdca",
+        "type": "ui-page",
+        "name": "Proyecto - Markdown 1",
+        "ui": "27fe8e97bd485819",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "notebook",
+        "theme": "09e323884a6fa406",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": -1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "a15826aad038fc46",
+        "type": "ui-group",
+        "name": "UTMACH",
+        "page": "69bf633eedbdfdca",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5ea3f1f77305c279",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "b9dcd879b336e50a",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "b9dcd879b336e50a",
+        "type": "ui-page",
+        "name": "Taller 2",
+        "ui": "27fe8e97bd485819",
+        "path": "/T2",
+        "icon": "thermometer-lines",
+        "layout": "notebook",
+        "theme": "09e323884a6fa406",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": -1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "6868135552a1722a",
+        "type": "ui-group",
+        "name": "Taller 2",
+        "page": "b9dcd879b336e50a",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "b56c1d53f38e95d1",
+        "type": "ui-page",
+        "name": "Taller 5",
+        "ui": "27fe8e97bd485819",
+        "path": "/T5",
+        "icon": "router-network-wireless",
+        "layout": "notebook",
+        "theme": "09e323884a6fa406",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": -1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5edd4966e96526bf",
+        "type": "ui-group",
+        "name": "Taller 5",
+        "page": "b56c1d53f38e95d1",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "59ee6716f2467272",
+        "type": "ui-page",
+        "name": "Lección1",
+        "ui": "27fe8e97bd485819",
+        "path": "/leccion1",
+        "icon": "home",
+        "layout": "notebook",
+        "theme": "09e323884a6fa406",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": -1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "6e494f4068a08f23",
+        "type": "ui-group",
+        "name": "Lección 1",
+        "page": "59ee6716f2467272",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "60b9d84e978b1304",
+        "type": "ui-page",
+        "name": "Taller 1",
+        "ui": "27fe8e97bd485819",
+        "path": "/T1",
+        "icon": "home",
+        "layout": "notebook",
+        "theme": "09e323884a6fa406",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": -1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "ad25f7a19b689629",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "60b9d84e978b1304",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3e2cddb3371ca415",
+        "type": "ui-page",
+        "name": "Taller 6",
+        "ui": "27fe8e97bd485819",
+        "path": "/T6",
+        "icon": "home",
+        "layout": "notebook",
+        "theme": "09e323884a6fa406",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": -1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "ee015a84b5230a26",
+        "type": "ui-group",
+        "name": "Taller 6",
+        "page": "3e2cddb3371ca415",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
     },
     {
         "id": "83f83a691bbc4ddd",
@@ -1100,7 +1425,7 @@
         "type": "ui-gauge",
         "z": "d76f28377849254e",
         "name": "Dash 1",
-        "group": "b42c0d0a3eae6344",
+        "group": "ad25f7a19b689629",
         "order": 1,
         "value": "payload",
         "valueType": "msg",
@@ -1153,7 +1478,7 @@
         "id": "a55d42a1a587a52b",
         "type": "ui-chart",
         "z": "d76f28377849254e",
-        "group": "b42c0d0a3eae6344",
+        "group": "ad25f7a19b689629",
         "name": "",
         "label": "chart",
         "order": 1,
@@ -1233,7 +1558,7 @@
         "type": "ui-gauge",
         "z": "d76f28377849254e",
         "name": "Dash 2",
-        "group": "b42c0d0a3eae6344",
+        "group": "ad25f7a19b689629",
         "order": 3,
         "value": "payload",
         "valueType": "msg",
@@ -1278,6 +1603,23 @@
         "className": "",
         "x": 520,
         "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "952c372e5881f7a4",
+        "type": "ui-markdown",
+        "z": "d76f28377849254e",
+        "group": "a15826aad038fc46",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "content": "# Plataforma IoT - UTMACH\n\nBienvenido al panel central de monitoreo y telemetría de Internet de las Cosas (IoT), desarrollado sobre la plataforma Node-RED Dashboard.\n\nEste entorno permite supervisar sensores en tiempo real, visualizar actuadores y gestionar la adquisición de datos de los diferentes nodos conectados a la red local.\n\n## Módulos de Adquisición y Sensores\n\n* **Lectura de Variables Físicas:** Adquisición continua de magnitudes mediante transductores analógicos y digitales.\n* **Procesamiento en el Borde:** Normalización, calibración y filtrado de datos antes del almacenamiento.\n\n### Guía de Uso del Dashboard\n\n1. Selecciona la variable que deseas monitorizar utilizando el menú de navegación.\n2. Supervisa las lecturas en tiempo real y utiliza el botón de retorno para volver a este panel.\n\n#### Enlaces Rápidos\n\nLink --> [Grupo 1](/dashboard/page2)\n\nLink --> [Grupo 2](/dashboard/page3)",
+        "className": "",
+        "x": 170,
+        "y": 420,
         "wires": [
             []
         ]
@@ -1583,7 +1925,7 @@
         "y": 80,
         "wires": [
             [
-                "2a4c8ab098fdba24"
+                "8625e506ba809a3e"
             ]
         ]
     },
@@ -1600,7 +1942,7 @@
         "y": 140,
         "wires": [
             [
-                "2a4c8ab098fdba24"
+                "8625e506ba809a3e"
             ]
         ]
     },
@@ -1617,49 +1959,67 @@
         "y": 200,
         "wires": [
             [
-                "2a4c8ab098fdba24"
+                "8625e506ba809a3e"
             ]
         ]
     },
     {
-        "id": "2a4c8ab098fdba24",
-        "type": "ui_chart",
+        "id": "8625e506ba809a3e",
+        "type": "ui-chart",
         "z": "788fac5247a4607c",
+        "group": "6868135552a1722a",
         "name": "",
-        "group": "0703454bb62d4367",
-        "order": 1,
-        "width": 0,
-        "height": 0,
         "label": "chart",
+        "order": 9007199254740991,
         "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
         "ymin": "",
         "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
         "removeOlder": 1,
-        "removeOlderPoints": "",
         "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
+        "removeOlderPoints": "",
         "colors": [
-            "#1f77b4",
-            "#aec7e8",
+            "#0095ff",
+            "#ff0000",
             "#ff7f0e",
             "#2ca02c",
-            "#98df8a",
+            "#a347e1",
             "#d62728",
             "#ff9896",
             "#9467bd",
             "#c5b0d5"
         ],
-        "outputs": 1,
-        "useDifferentColor": false,
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
         "className": "",
-        "x": 570,
+        "interpolation": "linear",
+        "x": 550,
         "y": 140,
         "wires": [
             []
@@ -2425,85 +2785,140 @@
         "y": 280,
         "wires": [
             [
-                "b7dc90f9bafd6ce4"
+                "e7ea66ce60b3d218"
             ],
             [
-                "b1e11f24e287e6a9"
+                "939f3041591ee1e6"
             ]
         ]
     },
     {
-        "id": "b7dc90f9bafd6ce4",
-        "type": "ui_gauge",
+        "id": "e7ea66ce60b3d218",
+        "type": "ui-gauge",
         "z": "3b108794cc39fbe0",
         "name": "",
-        "group": "bed74909c39d37ef",
+        "group": "5edd4966e96526bf",
+        "order": 0,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 630,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "939f3041591ee1e6",
+        "type": "ui-gauge",
+        "z": "3b108794cc39fbe0",
+        "name": "",
+        "group": "5edd4966e96526bf",
+        "order": 0,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 630,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c3a467a95c133b3",
+        "type": "ui-template",
+        "z": "3b108794cc39fbe0",
+        "group": "5edd4966e96526bf",
+        "page": "",
+        "ui": "",
+        "name": "",
         "order": 0,
         "width": 0,
         "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 610,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "b1e11f24e287e6a9",
-        "type": "ui_gauge",
-        "z": "3b108794cc39fbe0",
-        "name": "",
-        "group": "bed74909c39d37ef",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 610,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "8c6a293f5356bf78",
-        "type": "ui_template",
-        "z": "3b108794cc39fbe0",
-        "group": "bed74909c39d37ef",
-        "name": "",
-        "order": 2,
-        "width": 0,
-        "height": 0,
+        "head": "",
         "format": "<style>\nmd-card {\n    background-color: #212529 !important;\n    border: 1px solid #495057 !important;\n    border-radius: 12px !important;\n    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6) !important;\n}\n.nr-dashboard-gauge text {\n    fill: #f8f9fa !important;\n    font-weight: bold !important;\n    font-family: system-ui, -apple-system, sans-serif !important;\n}\n.nr-dashboard-gauge .title {\n    font-size: 22px !important;\n    color: #f8f9fa !important;\n    text-transform: uppercase !important;\n}\n</style>",
         "storeOutMessages": true,
-        "fwdInMessages": true,
+        "passthru": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 340,
+        "x": 540,
         "y": 380,
         "wires": [
             []
@@ -2747,34 +3162,6 @@
         "wires": []
     },
     {
-        "id": "de152274bb4aa735",
-        "type": "ui_gauge",
-        "z": "cfe1cb7daa8ea3ee",
-        "name": "",
-        "group": "aa8a5742046ca1c5",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 650,
-        "y": 140,
-        "wires": []
-    },
-    {
         "id": "a552140e5057ff1a",
         "type": "change",
         "z": "cfe1cb7daa8ea3ee",
@@ -2797,37 +3184,9 @@
         "y": 140,
         "wires": [
             [
-                "de152274bb4aa735"
+                "999aeaf404745063"
             ]
         ]
-    },
-    {
-        "id": "17b7777bb0083437",
-        "type": "ui_gauge",
-        "z": "cfe1cb7daa8ea3ee",
-        "name": "",
-        "group": "aa8a5742046ca1c5",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 650,
-        "y": 200,
-        "wires": []
     },
     {
         "id": "e5008256282dd59e",
@@ -2852,8 +3211,116 @@
         "y": 200,
         "wires": [
             [
-                "17b7777bb0083437"
+                "694ed80f7ab30e44"
             ]
+        ]
+    },
+    {
+        "id": "999aeaf404745063",
+        "type": "ui-gauge",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "group": "ee015a84b5230a26",
+        "order": 0,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 650,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "694ed80f7ab30e44",
+        "type": "ui-gauge",
+        "z": "cfe1cb7daa8ea3ee",
+        "name": "",
+        "group": "ee015a84b5230a26",
+        "order": 0,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": 10,
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 650,
+        "y": 200,
+        "wires": [
+            []
         ]
     },
     {
@@ -3051,38 +3518,10 @@
         "y": 80,
         "wires": [
             [
-                "57c8f77b8d4fc153",
-                "47b0809bcec36d47"
+                "47b0809bcec36d47",
+                "efac14dbaa29a0ed"
             ]
         ]
-    },
-    {
-        "id": "57c8f77b8d4fc153",
-        "type": "ui_gauge",
-        "z": "a3d90c735141b28d",
-        "name": "",
-        "group": "eab0e163439b4f88",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "%",
-        "format": "{{value}}",
-        "min": "20",
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 430,
-        "y": 80,
-        "wires": []
     },
     {
         "id": "051fa851ffe27354",
@@ -3101,38 +3540,10 @@
         "y": 180,
         "wires": [
             [
-                "874e3e0e2e6730ca",
-                "628ec7105afc000f"
+                "628ec7105afc000f",
+                "b2cb4eeac98ec872"
             ]
         ]
-    },
-    {
-        "id": "874e3e0e2e6730ca",
-        "type": "ui_gauge",
-        "z": "a3d90c735141b28d",
-        "name": "",
-        "group": "eab0e163439b4f88",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "ºC",
-        "format": "{{value}}",
-        "min": "0",
-        "max": "50",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 430,
-        "y": 180,
-        "wires": []
     },
     {
         "id": "16499dec2b01fd4c",
@@ -3151,119 +3562,14 @@
         "y": 280,
         "wires": [
             [
-                "faeced54054636c1",
-                "5f5255dc96c5db86",
-                "f8b29a8869aed56a",
-                "eecebe6dd1c0486e",
-                "52157ecbe2b47593",
-                "cb0f6f460ad2d0d2"
+                "cb0f6f460ad2d0d2",
+                "d539c6784cd0f788",
+                "11ab892fc02b2882",
+                "319d5e3a912fb098",
+                "fb3010b142ff1676",
+                "af87ae2bfb4ae537"
             ]
         ]
-    },
-    {
-        "id": "faeced54054636c1",
-        "type": "ui_text",
-        "z": "a3d90c735141b28d",
-        "group": "eab0e163439b4f88",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Nombre",
-        "format": "{{msg.payload.sistema.nombre}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 420,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "52157ecbe2b47593",
-        "type": "ui_text",
-        "z": "a3d90c735141b28d",
-        "group": "eab0e163439b4f88",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Ubicacion",
-        "format": "{{msg.payload.sistema.ubicacion}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 420,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "eecebe6dd1c0486e",
-        "type": "ui_text",
-        "z": "a3d90c735141b28d",
-        "group": "eab0e163439b4f88",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Riego",
-        "format": "{{msg.payload.sistema.estado.riego}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 430,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "f8b29a8869aed56a",
-        "type": "ui_text",
-        "z": "a3d90c735141b28d",
-        "group": "eab0e163439b4f88",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Temperatura",
-        "format": "{{msg.payload.sistema.estado.alarmaTemperatura}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 430,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "5f5255dc96c5db86",
-        "type": "ui_text",
-        "z": "a3d90c735141b28d",
-        "group": "eab0e163439b4f88",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Humedad",
-        "format": "{{msg.payload.sistema.estado.alarmaHumedad}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 420,
-        "y": 440,
-        "wires": []
     },
     {
         "id": "cb0f6f460ad2d0d2",
@@ -3344,6 +3650,234 @@
         "info": "Recepta el JSON enviado por estado\nSe muestra cada valor por separado \nen un cuadro de texto\nAl ser estático nunca va a cambiar su \ncontenido",
         "x": 270,
         "y": 240,
+        "wires": []
+    },
+    {
+        "id": "efac14dbaa29a0ed",
+        "type": "ui-gauge",
+        "z": "a3d90c735141b28d",
+        "name": "",
+        "group": "6e494f4068a08f23",
+        "order": 0,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "20",
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 470,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2cb4eeac98ec872",
+        "type": "ui-gauge",
+        "z": "a3d90c735141b28d",
+        "name": "",
+        "group": "6e494f4068a08f23",
+        "order": 0,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "20",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "0",
+        "max": "50",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 470,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d539c6784cd0f788",
+        "type": "ui-text",
+        "z": "a3d90c735141b28d",
+        "group": "6e494f4068a08f23",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nombre",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.nombre",
+        "valueType": "msg",
+        "x": 480,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "11ab892fc02b2882",
+        "type": "ui-text",
+        "z": "a3d90c735141b28d",
+        "group": "6e494f4068a08f23",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Ubicacion",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.ubicacion",
+        "valueType": "msg",
+        "x": 480,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "319d5e3a912fb098",
+        "type": "ui-text",
+        "z": "a3d90c735141b28d",
+        "group": "6e494f4068a08f23",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Riego",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.estado.riego",
+        "valueType": "msg",
+        "x": 470,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fb3010b142ff1676",
+        "type": "ui-text",
+        "z": "a3d90c735141b28d",
+        "group": "6e494f4068a08f23",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperatura",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.estado.alarmaTemperatura",
+        "valueType": "msg",
+        "x": 490,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "af87ae2bfb4ae537",
+        "type": "ui-text",
+        "z": "a3d90c735141b28d",
+        "group": "6e494f4068a08f23",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humedad",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload.sistema.estado.alarmaHumedad",
+        "valueType": "msg",
+        "x": 480,
+        "y": 440,
         "wires": []
     },
     {
